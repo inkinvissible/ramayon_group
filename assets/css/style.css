@@ -745,19 +745,26 @@ section {
 --------------------------------------------------------------*/
 .servicios_section{
   display: flex;
-  flex-direction: column; /* Apila los elementos uno sobre el otro */
-  align-items: center; /* Centra horizontalmente */
-  justify-content: center; /* Centra verticalmente */
-  height: 100vh; /* Hace que ocupe toda la altura de la ventana */
-  text-align: center; /* Centra el texto */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  text-align: center; 
+  padding: 20px;
 }
 .about {
   background: url("/assets/img/seg2_img.jpg") center center;
   background-size: cover;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
+  width: 100%;
+  overflow: hidden; 
 }
-
+@media (max-width: 768px){
+  .about {
+    padding: 50px 10px;
+}
+}
 .about:before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
@@ -856,13 +863,32 @@ section {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 20px; 
+  gap: 15px; 
   box-sizing: border-box;
   flex-wrap: nowrap;
+  padding: 10px; 
+  overflow: hidden; 
+  
 }
 @media (max-width: 768px){
-  .iconContainer{
-    flex-wrap: wrap;
+  .iconContainer {
+    min-height: 100vh; 
+    flex-wrap: wrap;  
+    flex-direction: column;  
+    align-items: center;  
+    padding-bottom: 20px; 
+    gap: 15px;
+    width: 100%;
+  }
+
+  .card {
+    width: 80px;  
+    height: 80px;
+    margin: 15px 0; 
+  }
+
+  .card p {
+    font-size: 0.8em;
   }
 }
 .cardWithText {
