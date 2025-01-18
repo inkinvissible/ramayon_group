@@ -32,6 +32,10 @@ const getData = async () => {
 
     // Configurar el calendario
     const calendarEl = document.getElementById("calendar");
+    const today = new Date();
+    const fourMonthsLater = new Date();
+    fourMonthsLater.setMonth(today.getMonth() + 4);
+
     const calendar = new FullCalendar.Calendar(calendarEl, {
       headerToolbar: {
         left: "prev,next today",
@@ -51,11 +55,15 @@ const getData = async () => {
       navLinks: true,
       editable: false,
       dayMaxEvents: true,
+      validRange: {
+        start: today,
+        end: fourMonthsLater,
+      },
     });
     calendar.render();
 
     // Generar tarjetas de disponibilidad
-    generateAvailabilityCards(events);
+    generateAvailabilityCards(events, today, fourMonthsLater);
   } catch (error) {
     console.error(error);
     alert(
@@ -64,67 +72,62 @@ const getData = async () => {
   }
 };
 
-const generateAvailabilityCards = (events) => {
+const generateAvailabilityCards = (events, today, fourMonthsLater) => {
   const availabilityContainer = document.getElementById("availability");
   availabilityContainer.innerHTML = ""; // Limpiar contenido existente
-  const months = [
-    "enero",
-    "febrero",
-    "marzo",
-    "abril",
-    "mayo",
-    "junio",
-    "julio",
-    "agosto",
-    "septiembre",
-    "octubre",
-    "noviembre",
-    "diciembre",
-  ];
-  const today = new Date();
-  const thisMonth = months[today.getMonth()];
 
-  // Filtrar eventos futuros
-  const futureEvents = events.filter((event) => {
-    const e = new ICAL.Event(event);
-    return e.endDate.toJSDate() >= today;
+  // Ordenar eventos por fecha de inicio
+  const sortedEvents = events
+    .map((event) => new ICAL.Event(event))
+    .sort((a, b) => a.startDate.toJSDate() - b.startDate.toJSDate());
+
+  const availablePeriods = [];
+  let lastEnd = today;
+
+  sortedEvents.forEach((event) => {
+    const eventStart = event.startDate.toJSDate();
+    if (eventStart > lastEnd) {
+      availablePeriods.push({ start: lastEnd, end: eventStart });
+    }
+    const eventEnd = event.endDate.toJSDate();
+    if (eventEnd > lastEnd) {
+      lastEnd = eventEnd;
+    }
   });
 
-  // Generar tarjetas basadas en eventos
-  futureEvents.forEach((event, index) => {
-    if (index < 3) {
-      // Limitar a 3 tarjetas
-      const e = new ICAL.Event(event);
-      const card = document.createElement("div");
-      card.className = "col-lg-4 col-md-6";
-      
-      
-      
-      const boxDiv = document.createElement("div");
-      boxDiv.className = "box mt-4";
-      boxDiv.setAttribute("data-aos", "zoom-in");
-      boxDiv.setAttribute("data-aos-delay", "100");
-      
-      const title = document.createElement("h4");
-      title.className = "card-title";
-      title.textContent = "No Disponible";
-      
-      const text = document.createElement("p");
-      text.className = "card-text";
-      text.textContent = `Del ${formatDate(e.startDate)} al ${formatDate(e.endDate, -1)}`;
-      
-      boxDiv.appendChild(title);
-      boxDiv.appendChild(text);
-      card.appendChild(boxDiv);
-      availabilityContainer.appendChild(card);
-    }
+  if (lastEnd < fourMonthsLater) {
+    availablePeriods.push({ start: lastEnd, end: fourMonthsLater });
+  }
+
+  // Limitar a 3 tarjetas
+  availablePeriods.slice(0, 3).forEach((period) => {
+    const card = document.createElement("div");
+    card.className = "col-lg-4 col-md-6";
+
+    const boxDiv = document.createElement("div");
+    boxDiv.className = "box mt-4";
+    boxDiv.setAttribute("data-aos", "zoom-in");
+    boxDiv.setAttribute("data-aos-delay", "100");
+
+    const title = document.createElement("h4");
+    title.className = "card-title";
+    title.textContent = "Disponible";
+
+    const text = document.createElement("p");
+    text.className = "card-text";
+    text.textContent = `Del ${formatDate(period.start)} al ${formatDate(period.end, -1)}`;
+
+    boxDiv.appendChild(title);
+    boxDiv.appendChild(text);
+    card.appendChild(boxDiv);
+    availabilityContainer.appendChild(card);
   });
 };
 
-const formatDate = (icalDate, adjust = 0) => {
-  const date = icalDate.toJSDate();
-  date.setDate(date.getDate() + adjust);
-  const day = date.getDate();
+const formatDate = (date, adjust = 0) => {
+  const adjustedDate = new Date(date);
+  adjustedDate.setDate(adjustedDate.getDate() + adjust);
+  const day = adjustedDate.getDate();
   const months = [
     "enero",
     "febrero",
@@ -139,7 +142,7 @@ const formatDate = (icalDate, adjust = 0) => {
     "noviembre",
     "diciembre",
   ];
-  const month = months[date.getMonth()];
+  const month = months[adjustedDate.getMonth()];
   return `${day} de ${month}`;
 };
 
