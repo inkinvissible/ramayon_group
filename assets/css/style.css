@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/seg1_img.jpg") top center;
+  background: url("backgrounds/seg1_img.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -760,7 +760,7 @@ section {
   padding: 20px;
 }
 .about {
-  background: url("/assets/img/seg2_img.jpg") center center;
+  background: url("backgrounds/seg2_img.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 20px;
@@ -1419,14 +1419,14 @@ section {
 # Alojamientos
 --------------------------------------------------------------*/
 .alojamientoContainer {
-  position: relative; /* Necesario para posicionar el pseudo-elemento */
+  position: relative; 
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 100px;
   border-radius: 10px;
   color: white;
-  overflow: hidden; /* Asegura que no se desborden los elementos */
+  overflow: hidden; 
 }
 @media screen and (max-width: 768px) {
   .alojamientoContainer{
@@ -1439,23 +1439,23 @@ section {
 
 
 .alojamientoContainer::before {
-  content: ''; /* Crea un pseudo-elemento vacío */
-  position: absolute; /* Lo posiciona dentro del contenedor */
+  content: ''; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/assets/img/seg1_img.jpg') no-repeat center center;
+  background: url('backgrounds/seg1_img.jpg') no-repeat center center;
   background-size: cover;
-  opacity: 0.5; /* Controla la opacidad de la imagen de fondo */
-  z-index: -1; /* Lo coloca detrás del contenido principal */
-  filter: brightness(0.8); /* Opcional: ajusta el brillo */
+  opacity: 0.5;
+  z-index: -1; 
+  filter: brightness(0.8); 
 }
 
 .alojamientoCards{
   background-color: #A5D6A7;
   border-radius: 10px; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 
