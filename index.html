@@ -59,7 +59,11 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><img src="assets/img/logo_ramayon.png" alt="logo_ramayon"></h1> <!--logo nav-->
+      <h1 class="logo me-auto me-lg-0">
+        <a href="#hero">
+          <img src="assets/img/logo_ramayon.png" alt="logo_ramayon">
+        </a>
+      </h1> <!--logo nav-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -67,17 +71,17 @@
           <li class="dropdown">
             <a href="#about"><span>Alojamientos</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Altos de San Martín</a></li>
-              <li><a href="#">Los Molinos</a></li>
-              <li><a href="#">Ramayon House</a></li>
+              <li><a href="./pages/altos.html" target="_blank">Altos de San Martín</a></li>
+              <li><a href="./pages/molinos.html" target="_blank">Los Molinos</a></li>
+              <li><a href="./pages/ramayon.html" target="_blank">Ramayon House</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#menu">Contacto</a></li>
+          <li><a class="nav-link scrollto" href="#contacto">Contacto</a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="https://wa.me/5491155091292" class="book-a-table-btn scrollto d-none d-lg-flex">QUIERO HACER UNA
+      <a href="https://wa.me/5491155091292" target="_blank" class="book-a-table-btn scrollto d-none d-lg-flex">QUIERO HACER UNA
         RESERVA</a>
 
     </div>
@@ -92,7 +96,7 @@
           <h2>Los mejores departamentos en San Martín de los Andes</h2>
 
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Nuestros alojamientos</a>
+            <a href="#alojamiento" class="btn-menu animated fadeInUp scrollto">Nuestros alojamientos</a>
             <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Realizar una reserva</a>
           </div>
         </div>
@@ -238,7 +242,7 @@
     <!-- End Gallery Section -->
 
     <!-- Start alojamientos section -->
-    <section class="alojamientoSection">
+    <section class="alojamientoSection" id="alojamiento">
       <div>
         <h2>Nuestros alojamientos</h2>
       </div>
@@ -249,7 +253,7 @@
           <div class="card-body">
             <h5 class="card-title">Altos de San Martín</h5>
             <p class="card-text">Hasta 3 huéspedes<br> Con estacionamiento<br> Patio, parrilla, SmarTV y WiFi.</p>
-            <a href="#" class="btn btn-primary verMasBtn">Ver más</a>
+            <a href="./pages/altos.html" target="_blank" class="btn btn-primary verMasBtn">Ver más</a>
           </div>
         </div>
         <!-- Segunda tarjeta -->
@@ -258,7 +262,7 @@
           <div class="card-body">
             <h5 class="card-title">Los Molinos</h5>
             <p class="card-text">Hasta 6 huéspedes <br> Con estacionamiento<br> Patio, parrilla, SmarTV y WiFi.</p>
-            <a href="#" class="btn btn-primary verMasBtn">Ver más</a>
+            <a href="./pages/molinos.html" target="_blank" class="btn btn-primary verMasBtn">Ver más</a>
           </div>
         </div>
         <!-- Tercera tarjeta -->
@@ -267,7 +271,7 @@
           <div class="card-body">
             <h5 class="card-title">Ramayon House</h5>
             <p class="card-text">Hasta 4 huéspedes <br> Con estacionamiento<br> Patio, parrilla, SmarTV y WiFi.</p>
-            <a href="#" class="btn btn-primary verMasBtn">Ver más</a>
+            <a href="./pages/ramayon.html" target="_blank" class="btn btn-primary verMasBtn">Ver más</a>
           </div>
         </div>
       </div>
@@ -275,13 +279,13 @@
     <!--End alojamientos section-->
 
     <!--Start testimonials section-->
-    <section>
+    <section id="testimonials">
       <div class="elfsight-app-d004b07a-74b0-426d-987b-72987c0df76a" data-elfsight-app-lazy></div>
     </section>
     <!--End testimonials section-->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contacto" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -391,11 +395,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Enlaces</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Galería</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Comentarios</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Galería</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Comentarios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contacto">Contacto</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
