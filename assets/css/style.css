@@ -203,9 +203,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
-
+@media (max-width: 768px) {
+  #header .logo img{
+    max-height: 70px;
+  }
+  #hero .btns{
+    display: flex;
+  }
+}
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
@@ -1421,6 +1428,15 @@ section {
   color: white;
   overflow: hidden; /* Asegura que no se desborden los elementos */
 }
+@media screen and (max-width: 768px) {
+  .alojamientoContainer{
+    flex-direction: column;
+  }
+  .alojamientoCards{
+    margin-top: 20px;
+  }
+}
+
 
 .alojamientoContainer::before {
   content: ''; /* Crea un pseudo-elemento vacío */
@@ -1469,11 +1485,11 @@ section {
 }
 .verMasBtn{
   background-color: #2E7D32 !important;
-  border-color: #006400!important;
+  border-color: transparent;
 }
 .verMasBtn:hover{
   background-color: #cda45e !important;
-  border-color: #006400!important;
+  border-color: transparent;
 }
 .alojamientoContainer p{
   color:white;
@@ -1484,6 +1500,8 @@ section {
 .alojamientoSection h2{
   text-align: center;
   color: #76C55A;
+  margin-bottom: 50px;
+  font-size: 36px;
 }
 
 /*--------------------------------------------------------------
@@ -1583,7 +1601,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #76c55a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1879,4 +1897,8 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
 }
