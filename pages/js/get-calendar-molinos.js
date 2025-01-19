@@ -3,7 +3,7 @@
 const getData = async () => {
   try {
     const response = await axios.get(
-        "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.airbnb.com/calendar/ical/48895031.ics?s=94126301f736853a62f921ca37ad64d7&locale=es-AR"),
+        "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.airbnb.com/calendar/ical/785587447983577384.ics?s=c75b232eefdba3bf290f60baa29fdcc9&locale=es-AR"),
         {
             headers: {
                 'Content-Type': 'application/json'
