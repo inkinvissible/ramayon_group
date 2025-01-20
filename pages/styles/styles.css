@@ -150,7 +150,7 @@
   #heroMolinos {
     width: 100%;
     height: 100vh;
-    background: url("https://lh3.googleusercontent.com/p/AF1QipO3YUZi2-nwBaNnhGNmf4n3koM0NEHnxEUq-f5P=s680-w680-h510") top center;
+    background: url("../img/molinos/portada.jpg") top center;
     background-size: cover;
     position: relative;
     padding: 0;
@@ -453,7 +453,7 @@
   #heroRamayon {
     width: 100%;
     height: 100vh;
-    background: url("https://lh3.googleusercontent.com/p/AF1QipO_Gzovfwt5HvPSo0XRZWl-QqDTAsGFfqc9oPFY=s680-w680-h510") top center;
+    background: url("../img/ramayon/portada.jpg") top center;
     background-size: cover;
     position: relative;
     padding: 0;
@@ -758,7 +758,7 @@
   #heroAltos {
     width: 100%;
     height: 100vh;
-    background: url("https://lh3.googleusercontent.com/p/AF1QipPpfUFdMYTA6a3-jkEtwxuIgWGlSaelXn-2AipX=s1360-w1360-h1020") top center;
+    background: url("../img/altos/portada.jpg") top center;
     background-size: cover;
     position: relative;
     padding: 0;
