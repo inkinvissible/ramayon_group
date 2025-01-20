@@ -883,11 +883,12 @@ section {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 15px; 
+  gap: 30px; /*antes 15*/ 
   box-sizing: border-box;
   flex-wrap: nowrap;
-  padding: 10px; 
+  padding: 20px; /*antes 10*/
   overflow: hidden; 
+  
   
 }
 @media (max-width: 768px){
@@ -912,10 +913,13 @@ section {
   }
 }
 .cardWithText {
+  height: 200px;
+  width: 200px;
   display: flex;
-  flex-direction: column; /* Coloca el ícono y el texto en columna */
-  align-items: center; /* Centra el contenido dentro de cada card */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
+  gap: 10px;
 }
 
 .card {
@@ -929,10 +933,12 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.card p{
+.cardWithText p{ /*antes .card p*/
   color: white;
   font-size: 0.9em;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  margin: 0px;
+  line-height: 1.2; /*nuevo*/
 }
 
 /*--------------------------------------------------------------
