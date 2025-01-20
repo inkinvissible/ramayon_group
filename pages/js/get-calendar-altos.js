@@ -8,14 +8,7 @@ const url =
 
 const getData = async () => {
   try {
-    const response = await axios.get(
-        "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.airbnb.com/calendar/ical/48895031.ics?s=94126301f736853a62f921ca37ad64d7&locale=es-AR"),
-        {
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }
-    );
+    const response = await axios.get(url);
     
     const data = await response.data;
 
