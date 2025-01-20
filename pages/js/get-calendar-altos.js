@@ -1,5 +1,11 @@
 "use strict";
 
+const url =
+    "https://serverless-ramayon-oqj4x4u96-inkinvissibles-projects.vercel.app/api/proxy?url=" +
+    encodeURIComponent(
+        "https://www.airbnb.com/calendar/ical/48895031.ics?s=94126301f736853a62f921ca37ad64d7&locale=es-AR"
+    );
+
 const getData = async () => {
   try {
     const response = await axios.get(

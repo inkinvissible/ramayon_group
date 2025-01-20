@@ -1,17 +1,15 @@
 "use strict";
+const url =
+    "https://serverless-ramayon-oqj4x4u96-inkinvissibles-projects.vercel.app/api/proxy?url=" +
+    encodeURIComponent(
+        "https://www.airbnb.com/calendar/ical/785587447983577384.ics?s=c75b232eefdba3bf290f60baa29fdcc9&locale=es-AR"
+    );
 
 const getData = async () => {
   try {
-    const response = await axios.get(
-        "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.airbnb.com/calendar/ical/785587447983577384.ics?s=c75b232eefdba3bf290f60baa29fdcc9&locale=es-AR"),
-        {
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }
-    );
+    const response = await axios.get(url);
     
-    const data = await response.data;
+    const data = response.data;
 
     const jcalData = ICAL.parse(data);
     const comp = new ICAL.Component(jcalData);
