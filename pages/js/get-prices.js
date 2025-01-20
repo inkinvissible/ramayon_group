@@ -92,7 +92,7 @@ fetch(csvUrl)
       h4.textContent = `Precio: $${price}`;
       
       const p = document.createElement("p");
-      p.textContent = `Este departamento cuenta con espacio para ${pax} personas.`;
+      p.textContent = `Tarifa final por noche para todos los pasajeros`;
       
       boxDiv.appendChild(span);
       boxDiv.appendChild(h4);

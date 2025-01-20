@@ -349,14 +349,14 @@
   }
   
   /*----------------- Ramayon ---------------*/
-  .aboutMolinos {
-    background: url("../../pages/img/molinos/estar.jpg") center center;
+  .aboutRamayon {
+    background: url("../../pages/img/ramayon/RH108.jpg") center center;
     background-size: cover;
     position: relative;
     padding: 80px 0;
     color: #fff;
   }
-  .aboutMolinos:before {
+  .aboutRamayon:before {
     content: "";
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
@@ -366,18 +366,18 @@
     right: 0;
   }
   
-  .aboutMolinos .about-img {
+  .aboutRamayon .about-img {
     position: relative;
     transition: .5s;
   }
   
-  .aboutMolinos .about-img img {
+  .aboutRamayon .about-img img {
     max-width: 100%;
     border: 4px solid rgba(255, 255, 255, 0.2);
     position: relative;
   }
   
-  .aboutMolinos .about-img::before {
+  .aboutRamayon .about-img::before {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -390,7 +390,7 @@
     transition: .5s;
   }
   
-  .aboutMolinos .about-img::after {
+  .aboutRamayon .about-img::after {
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -403,46 +403,46 @@
     transition: .5s;
   }
   
-  .aboutMolinos .about-img:hover {
+  .aboutRamayon .about-img:hover {
     transform: scale(1.03);
   }
   
-  .aboutMolinos .about-img:hover::before {
+  .aboutRamayon .about-img:hover::before {
     left: 10px;
     top: 10px;
   }
   
-  .aboutMolinos .about-img:hover::after {
+  .aboutRamayon .about-img:hover::after {
     right: 10px;
     bottom: 10px;
   }
   
-  .aboutMolinos .content h3 {
+  .aboutRamayon .content h3 {
     font-weight: 600;
     font-size: 26px;
   }
   
-  .aboutMolinos .content ul {
+  .aboutRamayon .content ul {
     list-style: none;
     padding: 0;
   }
   
-  .aboutMolinos .content ul li {
+  .aboutRamayon .content ul li {
     padding-bottom: 10px;
   }
   
-  .aboutMolinos .content ul i {
+  .aboutRamayon .content ul i {
     font-size: 20px;
     padding-right: 4px;
     color: #cda45e;
   }
   
-  .aboutMolinos .content p:last-child {
+  .aboutRamayon .content p:last-child {
     margin-bottom: 0;
   }
   
   @media (min-width: 1024px) {
-    .aboutMolinos {
+    .aboutRamayon {
       background-attachment: fixed;
     }
   }
