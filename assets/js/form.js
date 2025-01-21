@@ -24,7 +24,7 @@ function sendToWhatsApp(event) {
         errorMessage.style.display = 'block';
       } else {
         // Construye la URL de WhatsApp
-        const phoneNumber = "5493513346463"; // Reemplaza con tu número
+        const phoneNumber = "54911550912923"; // Reemplaza con tu número
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(messageInput.value)}`;
   
         // Redirige al usuario a WhatsApp

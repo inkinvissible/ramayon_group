@@ -2063,7 +2063,7 @@ section {
   
 
   /* Otros estilos */
-  color: #fff;
+  color: #fff !important;
   border-radius: 50px;
   font-size: 12px;
   font-weight: bold;
@@ -2079,4 +2079,7 @@ section {
 
 .form-group textarea:focus{
   background-color: #000;
+}
+.form-control{
+  color: white !important;
 }
