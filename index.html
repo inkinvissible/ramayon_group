@@ -260,26 +260,20 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-              </div>
+            <form id="whatsapp-form" role="form" onsubmit="sendToWhatsApp(event)">
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Mensaje" required></textarea>
+                <textarea id="whatsapp-message" class="form-control" rows="8" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" style="display: none;">Loading...</div>
+                <div class="error-message" style="display: none; color: red;">Por favor, escribe un mensaje antes de enviarlo.</div>
+                <div class="sent-message" style="display: none; color: green;">Tu mensaje ha sido enviado. ¡Gracias!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              <div class="text-center book-a-table-btn">
+                <button type="submit">Enviar mensaje</button>
+              </div>
             </form>
+            
 
           </div>
 
@@ -363,7 +357,25 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <script>
+  function sendToWhatsApp(event) {
+    event.preventDefault(); // Previene el envío estándar del formulario
+  
+    // Obtén el valor del mensaje del textarea
+    const message = document.getElementById('whatsapp-message').value;
+  
+    // Número de teléfono de destino (formato internacional sin "+")
+    const phoneNumber = "5493513346463"; // Reemplaza con el número de WhatsApp que deseas usar
+  
+    // Construye la URL de WhatsApp
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+    // Redirige al usuario a WhatsApp
+    window.open(whatsappURL, '_blank');
+  }
+  </script>
 </body>
 
 </html>

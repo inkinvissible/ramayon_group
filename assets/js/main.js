@@ -289,3 +289,4 @@ document.querySelectorAll('a[href="#alojamiento"]').forEach(function (anchor) {
     });
   });
 });
+

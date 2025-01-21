@@ -2052,4 +2052,31 @@ section {
   filter: grayscale(100%); 
   transition: filter 0.3s ease;
 }
+.text-center.book-a-table-btn{
+  height: 39.5px;
+  width: 182.58px;
+}
+.text-center.book-a-table-btn button {
+  appearance: none; /* Quita el estilo por defecto del navegador */
+  border: none; /* Elimina bordes predeterminados */
+  background: none; /* Elimina el fondo predeterminado */
+  
 
+  /* Otros estilos */
+  color: #fff;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  
+}
+.form-group textarea{
+  background-color: #000;
+}
+
+.form-group textarea:focus{
+  background-color: #000;
+}
