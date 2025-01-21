@@ -276,3 +276,16 @@
   });
 
 })()
+document.querySelectorAll('a[href="#alojamiento"]').forEach(function (anchor) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault(); // Evita el comportamiento predeterminado
+    const target = document.querySelector('#alojamiento');
+    const offset = 100; // Ajusta este valor según el espacio que quieras dejar arriba
+    const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth', // Desplazamiento suave
+    });
+  });
+});

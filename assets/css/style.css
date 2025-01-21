@@ -24,7 +24,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
 }
 
@@ -61,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -70,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -158,11 +165,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-#topbar .languages ul li + li {
+#topbar .languages ul li+li {
   padding-left: 10px;
 }
 
-#topbar .languages ul li + li::before {
+#topbar .languages ul li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.5);
@@ -205,14 +212,17 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 100px;
 }
+
 @media (max-width: 768px) {
-  #header .logo img{
+  #header .logo img {
     max-height: 70px;
   }
-  #hero .btns{
+
+  #hero .btns {
     display: flex;
   }
 }
+
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
@@ -281,7 +291,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover>a {
   color: #d9ba85;
 }
 
@@ -314,11 +326,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
   color: #cda45e;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -330,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -341,7 +355,8 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-  .navbar .dropdown .dropdown:hover > ul {
+
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -362,6 +377,7 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle {
     display: block;
   }
+
   .navbar ul {
     display: none;
   }
@@ -405,7 +421,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #1a1814;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
   color: #cda45e;
 }
 
@@ -437,11 +455,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
   color: #cda45e;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -500,7 +520,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu,
+#hero .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -511,10 +532,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border:#76C55A 2px solid;
+  border: #76C55A 2px solid;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
+#hero .btn-menu:hover,
+#hero .btn-book:hover {
   background: #76C55A;
   color: #fff;
 }
@@ -610,6 +632,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: auto;
   }
+
   #hero .container {
     padding-top: 130px;
     padding-bottom: 60px;
@@ -621,6 +644,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -632,6 +656,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -643,6 +668,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -677,7 +703,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title .prices{
+.section-title .prices {
   font-size: 20px;
   font-weight: 900;
   padding: 0;
@@ -687,7 +713,7 @@ section {
   text-transform: uppercase;
   color: #cda45e;
   font-family: "Poppins", sans-serif;
-  
+
 }
 
 .section-title h2::after {
@@ -737,11 +763,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #37332a;
@@ -752,9 +778,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -763,29 +791,31 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.servicios_section{
+.servicios_section {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  min-height: 100vh; 
-  text-align: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
   padding: 20px;
 }
+
 .about {
   background: url("backgrounds/sec1bg.jpeg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 20px;
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .about {
     padding: 50px 10px;
+  }
 }
-}
+
 .about:before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
@@ -882,64 +912,70 @@ section {
 --------------------------------------------------------------*/
 .iconContainer {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  gap: 30px; /*antes 15*/ 
+  gap: 30px;
+  /*antes 15*/
   box-sizing: border-box;
   flex-wrap: nowrap;
-  padding: 20px; /*antes 10*/
-  overflow: hidden; 
-  
-  
+  padding: 20px;
+  /*antes 10*/
+  overflow: hidden;
+
+
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
   .iconContainer {
-    min-height: 100vh; 
-    flex-wrap: wrap;  
-    flex-direction: column;  
-    align-items: center;  
-    padding-bottom: 20px; 
+    min-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
     gap: 15px;
     width: 100%;
   }
 
   .card {
-    width: 80px;  
+    width: 80px;
     height: 80px;
-    margin: 15px 0; 
+    margin: 15px 0;
   }
 
   .card p {
     font-size: 0.8em;
   }
 }
+
 .cardWithText {
   height: 200px;
   width: 200px;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   gap: 10px;
 }
 
 .card {
-  width: 100px; 
-  height: 100px; 
-  background-color: #76C55A; 
-  border-radius: 50%; 
+  width: 100px;
+  height: 100px;
+  background-color: #76C55A;
+  border-radius: 50%;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.cardWithText p{ /*antes .card p*/
+.cardWithText p {
+  /*antes .card p*/
   color: white;
   font-size: 0.9em;
   /*margin-top: 10px;*/
   margin: 0px;
-  line-height: 1.2; /*nuevo*/
+  line-height: 1.2;
+  /*nuevo*/
 }
 
 /*--------------------------------------------------------------
@@ -980,7 +1016,9 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
   color: #fff;
 }
 
@@ -1009,7 +1047,8 @@ section {
   font-family: "Playfair Display", serif;
 }
 
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
   color: #cda45e;
 }
 
@@ -1038,8 +1077,8 @@ section {
 
 .menu .menu-content::after {
   content: "......................................................................"
- "...................................................................."
- "....................................................................";
+    "...................................................................."
+    "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1265,7 +1304,7 @@ section {
   font-weight: 600;
 }
 
-.book-a-table .php-email-form .error-message br + br {
+.book-a-table .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1297,7 +1336,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.book-a-table .php-email-form input, .book-a-table .php-email-form textarea {
+.book-a-table .php-email-form input,
+.book-a-table .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1306,19 +1346,23 @@ section {
   color: white;
 }
 
-.book-a-table .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
+.book-a-table .php-email-form input::-webkit-input-placeholder,
+.book-a-table .php-email-form textarea::-webkit-input-placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
+.book-a-table .php-email-form input::-moz-placeholder,
+.book-a-table .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
+.book-a-table .php-email-form input::placeholder,
+.book-a-table .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
+.book-a-table .php-email-form input:focus,
+.book-a-table .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
@@ -1373,7 +1417,8 @@ section {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #d3af71;
   font-size: 26px;
 }
@@ -1419,6 +1464,16 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Novedades
+--------------------------------------------------------------*/
+.novedadesSection h2 {
+  text-align: center;
+  color: #76C55A;
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+
+/*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
 .gallery .gallery-item {
@@ -1439,29 +1494,31 @@ section {
 # Alojamientos
 --------------------------------------------------------------*/
 .alojamientoContainer {
-  position: relative; 
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 100px;
   border-radius: 10px;
   color: white;
-  overflow: hidden; 
+  overflow: hidden;
   min-height: 100vh;
 }
+
 @media screen and (max-width: 768px) {
-  .alojamientoContainer{
+  .alojamientoContainer {
     flex-direction: column;
     background-attachment: fixed;
   }
-  .alojamientoCards{
+
+  .alojamientoCards {
     margin-top: 20px;
   }
 }
 
 
 .alojamientoContainer::before {
-  content: ''; 
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -1470,57 +1527,68 @@ section {
   background: url('backgrounds/sec1bg.jpeg') no-repeat center center;
   background-size: cover;
   opacity: 0.5;
-  z-index: -1; 
-  filter: brightness(0.8); 
-  background-attachment: fixed; /* Hace que el fondo sea fijo (efecto parallax) */
+  z-index: -1;
+  filter: brightness(0.8);
+  background-attachment: fixed;
+  /* Hace que el fondo sea fijo (efecto parallax) */
 }
 
-.alojamientoCards{
+.alojamientoCards {
   background-color: #A5D6A7;
-  border-radius: 10px; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
 
 .alojamientoCards:hover {
-  transform: translateY(-5px); /* Mueve la card ligeramente hacia arriba */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el mouse */
+  transform: translateY(-5px);
+  /* Mueve la card ligeramente hacia arriba */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  /* Sombra más intensa al pasar el mouse */
 }
 
 
 
 .card-body {
   padding: 15px;
-  text-align: center; /* Centra el texto */
+  text-align: center;
+  /* Centra el texto */
 }
 
 .card-title {
   font-size: 1.2rem;
-  color: #2E7D32; /* Verde oscuro para destacar el título */
+  color: #2E7D32;
+  /* Verde oscuro para destacar el título */
   margin-bottom: 10px;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #4CAF50; /* Verde más vivo para el texto */
+  color: #4CAF50;
+  /* Verde más vivo para el texto */
   margin-bottom: 15px;
 }
-.verMasBtn{
+
+.verMasBtn {
   background-color: #2E7D32 !important;
   border-color: transparent;
 }
-.verMasBtn:hover{
+
+.verMasBtn:hover {
   background-color: #cda45e !important;
   border-color: transparent;
 }
-.alojamientoContainer p{
-  color:white;
+
+.alojamientoContainer p {
+  color: white;
 }
-.alojamientoContIner h5{
+
+.alojamientoContIner h5 {
   color: #006400;
 }
-.alojamientoSection h2{
+
+.alojamientoSection h2 {
   text-align: center;
   color: #76C55A;
   margin-bottom: 50px;
@@ -1647,7 +1715,9 @@ section {
   color: #bab3a6;
 }
 
-.contact .info .open-hours, .contact .info .email, .contact .info .phone {
+.contact .info .open-hours,
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
 
@@ -1704,7 +1774,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1713,19 +1784,23 @@ section {
   color: white;
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
@@ -1754,6 +1829,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1763,6 +1839,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1921,31 +1998,58 @@ section {
   font-size: 13px;
   color: #fff;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: space-between;
 }
+
 /* Estilos para el botón flotante whatsapp */
 .whatsapp-btn {
   height: 75px;
   width: 75px;
-  position: fixed; 
-  bottom: 20px;    
-  right: 20px;    
-  background-color: #25D366; 
-  color: white;   
-  border-radius: 50%; 
-  padding: 15px;    
-  font-size: 30px; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
   z-index: 9999;
 }
 
 .whatsapp-btn:hover {
-  background-color: #128C7E; 
+  background-color: #128C7E;
 }
+
+/*nuevo*/
+.social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 24px; /* Tamaño de los íconos */
+  color: #000; /* Color predeterminado */
+  text-decoration: none;
+}
+
+.social-links a img {
+  vertical-align: middle; 
+}
+
+.social-links a:hover {
+  color: #ffcc00; 
+  opacity: 0.8; 
+}
+.mercadolibre img{
+  height: 18px !important;
+  width: 23px !important;
+  filter: grayscale(100%); 
+  transition: filter 0.3s ease;
+}
+
