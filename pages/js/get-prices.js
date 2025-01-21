@@ -93,10 +93,19 @@ fetch(csvUrl)
       
       const p = document.createElement("p");
       p.textContent = `Tarifa final por noche para todos los pasajeros`;
+
+      const from = document.createElement("p");
+      from.className = "mt-2";
+      from.textContent = `Desde: ${locationData.desde}`;
+
+      const to = document.createElement("p");
+      to.textContent = `Hasta: ${locationData.hasta}`;
       
       boxDiv.appendChild(span);
       boxDiv.appendChild(h4);
       boxDiv.appendChild(p);
+      boxDiv.appendChild(from);
+      boxDiv.appendChild(to);
       colDiv.appendChild(boxDiv);
       container.appendChild(colDiv);
     }

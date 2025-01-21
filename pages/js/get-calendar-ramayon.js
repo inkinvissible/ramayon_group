@@ -115,7 +115,7 @@ const generateAvailabilityCards = (events, today, fourMonthsLater) => {
 
         const text = document.createElement("p");
         text.className = "card-text";
-        text.textContent = `Del ${formatDate(period.start)} al ${formatDate(period.end, -1)}`;
+        text.textContent = `Del ${formatDate(period.start)} al ${formatDate(period.end, 0)}`;
 
         boxDiv.appendChild(title);
         boxDiv.appendChild(text);
