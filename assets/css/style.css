@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("backgrounds/seg1_img.jpg") top center;
+  background: url("backgrounds/sec1bg.jpeg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -773,13 +773,14 @@ section {
   padding: 20px;
 }
 .about {
-  background: url("backgrounds/seg2_img.jpg") center center;
+  background: url("backgrounds/sec1bg.jpeg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 20px;
   width: 100%;
   overflow: hidden; 
 }
+
 @media (max-width: 768px){
   .about {
     padding: 50px 10px;
@@ -883,11 +884,12 @@ section {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 15px; 
+  gap: 30px; /*antes 15*/ 
   box-sizing: border-box;
   flex-wrap: nowrap;
-  padding: 10px; 
+  padding: 20px; /*antes 10*/
   overflow: hidden; 
+  
   
 }
 @media (max-width: 768px){
@@ -912,10 +914,13 @@ section {
   }
 }
 .cardWithText {
+  height: 200px;
+  width: 200px;
   display: flex;
-  flex-direction: column; /* Coloca el ícono y el texto en columna */
-  align-items: center; /* Centra el contenido dentro de cada card */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
+  gap: 10px;
 }
 
 .card {
@@ -929,10 +934,12 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.card p{
+.cardWithText p{ /*antes .card p*/
   color: white;
   font-size: 0.9em;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  margin: 0px;
+  line-height: 1.2; /*nuevo*/
 }
 
 /*--------------------------------------------------------------
@@ -1440,10 +1447,12 @@ section {
   border-radius: 10px;
   color: white;
   overflow: hidden; 
+  min-height: 100vh;
 }
 @media screen and (max-width: 768px) {
   .alojamientoContainer{
     flex-direction: column;
+    background-attachment: fixed;
   }
   .alojamientoCards{
     margin-top: 20px;
@@ -1458,11 +1467,12 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('backgrounds/seg1_img.jpg') no-repeat center center;
+  background: url('backgrounds/sec1bg.jpeg') no-repeat center center;
   background-size: cover;
   opacity: 0.5;
   z-index: -1; 
   filter: brightness(0.8); 
+  background-attachment: fixed; /* Hace que el fondo sea fijo (efecto parallax) */
 }
 
 .alojamientoCards{
