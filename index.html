@@ -266,14 +266,16 @@
               </div>
               <div class="my-3">
                 <div class="loading" style="display: none;">Loading...</div>
-                <div class="error-message" style="display: none; color: red;">Por favor, escribe un mensaje antes de enviarlo.</div>
-                <div class="sent-message" style="display: none; color: green;">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                <div class="error-message" style="display: none; color: red;">Por favor, escribe un mensaje antes de
+                  enviarlo.</div>
+                <div class="sent-message" style="display: none; color: green;">Tu mensaje ha sido enviado. ¡Gracias!
+                </div>
               </div>
               <div class="text-center book-a-table-btn">
                 <button type="submit">Enviar mensaje</button>
               </div>
             </form>
-            
+
 
           </div>
 
@@ -307,7 +309,9 @@
 
                 <a href="https://www.instagram.com/ramayonhouse/" target="_blank" class="instagram"><i
                     class="bx bxl-instagram"></i></a>
-                <a href="https://departamento.mercadolibre.com.ar/MLA-1982290030-departamentos-turisticos-temporales-en-san-martin-de-los-andes-de-1-a-4-pax-nivel-hotelero-cestacionamiento-patio-parrilla-wifi-smartv-inmejorable-ubicacion-y-calidad-_JM#polycard_client=recommendations_classi-realestate-vip&reco_backend=triggered_realestate_recommendations&reco_model=search-recommendations-fallback&reco_client=classi-realestate-vip&reco_item_pos=0&reco_backend_type=function&reco_id=efe30b02-0cf5-4cea-8b34-8122cc1780bb" target="_blank" class="mercadolibre"><img src="assets/img/logo-mercadolibre.png" alt="mercado-libre"></a>
+                <a href="https://departamento.mercadolibre.com.ar/MLA-1982290030-departamentos-turisticos-temporales-en-san-martin-de-los-andes-de-1-a-4-pax-nivel-hotelero-cestacionamiento-patio-parrilla-wifi-smartv-inmejorable-ubicacion-y-calidad-_JM#polycard_client=recommendations_classi-realestate-vip&reco_backend=triggered_realestate_recommendations&reco_model=search-recommendations-fallback&reco_client=classi-realestate-vip&reco_item_pos=0&reco_backend_type=function&reco_id=efe30b02-0cf5-4cea-8b34-8122cc1780bb"
+                  target="_blank" class="mercadolibre"><img src="assets/img/logo-mercadolibre.png"
+                    alt="mercado-libre"></a>
               </div>
             </div>
           </div>
@@ -337,7 +341,7 @@
         </div>
         <div class="credits">
 
-          <p>Diseñado por <strong>Agustín Martin</strong></p>
+          <p>Diseñado por <strong>Agustín Martin y Candelaria Piña</strong></p>
         </div>
       </div>
     </div>
@@ -360,21 +364,21 @@
   <script src="assets/js/form.js"></script>
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
   <script>
-  function sendToWhatsApp(event) {
-    event.preventDefault(); // Previene el envío estándar del formulario
-  
-    // Obtén el valor del mensaje del textarea
-    const message = document.getElementById('whatsapp-message').value;
-  
-    // Número de teléfono de destino (formato internacional sin "+")
-    const phoneNumber = "5491155091292"; // Reemplaza con el número de WhatsApp que deseas usar
-  
-    // Construye la URL de WhatsApp
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-  
-    // Redirige al usuario a WhatsApp
-    window.open(whatsappURL, '_blank');
-  }
+    function sendToWhatsApp(event) {
+      event.preventDefault(); // Previene el envío estándar del formulario
+
+      // Obtén el valor del mensaje del textarea
+      const message = document.getElementById('whatsapp-message').value;
+
+      // Número de teléfono de destino (formato internacional sin "+")
+      const phoneNumber = "5491155091292"; // Reemplaza con el número de WhatsApp que deseas usar
+
+      // Construye la URL de WhatsApp
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+      // Redirige al usuario a WhatsApp
+      window.open(whatsappURL, '_blank');
+    }
   </script>
 </body>
 
