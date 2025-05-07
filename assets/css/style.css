@@ -2083,3 +2083,31 @@ section {
 .form-control{
   color: white !important;
 }
+/* CUADRO TARIFARIO */
+#heroTarifas {
+  width: 100%;
+  height: 100vh;
+  background: url("assets/img/gallery/gallery-img-8.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+#heroTarifas:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#heroTarifas .container {
+  padding-top: 110px;
+}
+
+@media (max-width: 992px) {
+  #heroTarifas .container {
+    padding-top: 98px;
+  }
+}
