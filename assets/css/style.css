@@ -2083,11 +2083,13 @@ section {
 .form-control{
   color: white !important;
 }
+
+
 /* CUADRO TARIFARIO */
 #heroTarifas {
   width: 100%;
   height: 100vh;
-  background: url("assets/img/gallery/gallery-img-8.jpg") top center;
+  background: url("../img/about-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -2109,5 +2111,372 @@ section {
 @media (max-width: 992px) {
   #heroTarifas .container {
     padding-top: 98px;
+  }
+}
+
+/* ESTILOS PESTAÑA */
+
+/* Sistema de pestañas para tarifas */
+.tarifa-tabs {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+  overflow: hidden;
+  background-color: rgba(26, 24, 20, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tarifa-tabs input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tarifa-tabs label {
+  position: relative;
+  display: inline-block;
+  padding: 16px 30px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.tarifa-tabs label:hover {
+  color: #76C55A;
+}
+
+.tarifa-tabs input:checked + label {
+  color: #76C55A;
+  border-bottom: 3px solid #76C55A;
+  background-color: rgba(118, 197, 90, 0.1);
+}
+
+.tarifa-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tab-pane {
+  width: 100%;
+  transition: transform 0.5s ease;
+  padding: 20px;
+  display: none;
+}
+
+/* Mostrar panel activo según tab seleccionado */
+#tab1:checked ~ .tarifa-content #altos-content,
+#tab2:checked ~ .tarifa-content #ramayon-content,
+#tab3:checked ~ .tarifa-content #molinos-content {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mejora estética para las tablas */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.table-tarifas {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background-color: rgba(26, 24, 20, 0.8);
+  transition: all 0.3s ease;
+  min-width: 320px;
+}
+
+.table-tarifas thead th {
+  background: linear-gradient(145deg, #76C55A, #5a9745);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 18px 15px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.table-tarifas tbody td {
+  color: #fff;
+  padding: 18px 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+  font-size: 17px;
+}
+
+.table-tarifas tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-tarifas tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table-tarifas tbody tr:hover {
+  background-color: rgba(118, 197, 90, 0.15);
+}
+
+/* Estilos para las temporadas */
+.temporada-baja {
+  color: #76C55A !important;
+  font-weight: bold;
+  position: relative;
+}
+
+.temporada-baja::before {
+  content: '↓';
+  margin-right: 8px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.temporada-media {
+  color: #e3c567 !important;
+  font-weight: bold;
+}
+
+.temporada-media::before {
+  content: '→';
+  margin-right: 8px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.temporada-alta {
+  color: #e36767 !important;
+  font-weight: bold;
+}
+
+.temporada-alta::before {
+  content: '↑';
+  margin-right: 8px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* Adaptación responsive */
+@media (max-width: 768px) {
+  .tarifa-tabs {
+    border-radius: 10px;
+  }
+
+  .tarifa-tabs label {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .table-tarifas thead th {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+
+  .table-tarifas tbody td {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+
+  .temporada-baja::before,
+  .temporada-media::before,
+  .temporada-alta::before {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tarifa-tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tarifa-tabs label {
+    flex: 1 0 auto;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    width: 33.33%;
+  }
+
+  .tab-pane {
+    padding: 15px 10px;
+  }
+
+  .table-tarifas {
+    font-size: 13px;
+  }
+
+  .table-tarifas thead th {
+    padding: 10px 6px;
+    font-size: 13px;
+  }
+
+  .table-tarifas tbody td {
+    padding: 10px 6px;
+    font-size: 13px;
+  }
+
+  .temporada-baja::before,
+  .temporada-media::before,
+  .temporada-alta::before {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+
+  .actualizacion-fecha {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .tarifa-tabs label {
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+
+  .table-tarifas thead th {
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+
+  .table-tarifas tbody td {
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+}
+
+/* Estilos para la animación de carga */
+.loading-indicator {
+  text-align: center;
+  padding: 30px;
+}
+
+.actualizacion-container {
+  margin-top: 20px;
+  text-align: right;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Estilos para la sección de información de temporadas */
+.temporadas-info-container {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: rgba(26, 24, 20, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.temporadas-titulo {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.temporadas-titulo:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #76C55A;
+  bottom: 0;
+  left: calc(50% - 40px);
+}
+
+.temporada-card {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border-radius: 10px;
+  height: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.temporada-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.temporada-baja-card {
+  border-left: 4px solid #76C55A;
+}
+
+.temporada-media-card {
+  border-left: 4px solid #e3c567;
+}
+
+.temporada-alta-card {
+  border-left: 4px solid #e36767;
+}
+
+.temporada-icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.temporada-baja-card .temporada-icon {
+  color: #76C55A;
+}
+
+.temporada-media-card .temporada-icon {
+  color: #e3c567;
+}
+
+.temporada-alta-card .temporada-icon {
+  color: #e36767;
+}
+
+.temporada-nombre {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.temporada-fechas p {
+  color: #ccc;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.temporada-nota {
+  font-style: italic;
+  font-size: 13px !important;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+@media (max-width: 768px) {
+  .temporadas-info-container {
+    padding: 20px;
+  }
+
+  .temporada-card {
+    margin-bottom: 20px;
   }
 }

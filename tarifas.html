@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Altos de San Martín Departamentos</title>
+    <title>Cuadro Tarifario</title>
 
     <!-- Meta Tags General -->
     <meta name="description"
@@ -14,23 +14,23 @@
     <meta name="robots" content="index, follow"/>
 
     <!-- Favicons -->
-    <link href="../assets/img/logo_ramayon.png" rel="icon">
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/logo_ramayon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Full Calendar -->
     <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet'/>
     <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet"/>
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet"/>
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
-    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="../assets/css/style.css"/>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="pages/styles/styles.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LB04SH620W"></script>
@@ -70,7 +70,7 @@
             <ul>
                 <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
                 <li class="dropdown">
-                    <a class="active" href="#about"><span>Alojamientos</span> <i class="bi bi-chevron-down"></i></a>
+                    <a class="" href="#about"><span>Alojamientos</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="./altos.html">Altos de San Martín</a></li>
                         <li><a href="./ramayon.html">Ramayon House</a></li>
@@ -92,9 +92,9 @@
 <main id="main">
     <section id="heroTarifas" class="d-flex justify-content-center align-items-center">
         <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-            <h1 class="text-center"><span>Altos de San Martin</span></h1>
-            <h2 class="text-center">
-                Departamento equipado hasta 3 pasajeros <br>
+            <h1 class="text-center"><span>Tarifas</span></h1>
+            <h2 class="text-center fs-4">
+                Tarifas actualizadas para Ramayon House, Altos de San Martín y Los Molinos <br>
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" data-aos="pulse"
                      data-aos-delay="100" class="bi bi-arrow-down-circle-fill text-center mt-5 gentle-pulse"
                      viewBox="0 0 16 16">
@@ -104,6 +104,105 @@
             </h2>
 
         </div>
+    </section>
+    <section id="tarifasSection" class="tarifas-container">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros precios</h2>
+                <p>Cuadro tarifario</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="tarifa-tabs">
+                        <input type="radio" id="tab1" name="tarifa-tabs" checked>
+                        <label for="tab1">Altos de San Martín</label>
+
+                        <input type="radio" id="tab2" name="tarifa-tabs">
+                        <label for="tab2">Ramayon House</label>
+
+                        <input type="radio" id="tab3" name="tarifa-tabs">
+                        <label for="tab3">Los Molinos</label>
+
+                        <div class="tarifa-content">
+                            <div class="tab-pane" id="altos-content">
+                                <!-- Aquí va el contenido de Altos de San Martín -->
+                                <div class="loading-indicator" id="loading-altos">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Cargando...</span>
+                                    </div>
+                                    <p>Cargando tarifas de Altos de San Martín...</p>
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="ramayon-content">
+                                <!-- Aquí va el contenido de Ramayon House -->
+                                <div class="loading-indicator" id="loading-ramayon">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Cargando...</span>
+                                    </div>
+                                    <p>Cargando tarifas de Ramayon House...</p>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="molinos-content">
+                                <!-- Aquí va el contenido de Los Molinos -->
+                                <div class="loading-indicator" id="loading-molinos">
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="visually-hidden">Cargando...</span>
+                                    </div>
+                                    <p>Cargando tarifas de Los Molinos...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="temporadas-info-container">
+                            <h3 class="temporadas-titulo">Información de Temporadas</h3>
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="temporada-card temporada-baja-card">
+                                        <div class="temporada-icon">
+                                            <i class="bi bi-thermometer-low"></i>
+                                        </div>
+                                        <h4 class="temporada-nombre">Temporada Baja</h4>
+                                        <div class="temporada-fechas">
+                                            <p>Desde 2 Mayo al 20 Junio</p>
+                                            <p>15 Octubre al 15 Noviembre</p>
+                                            <p class="temporada-nota">(Excepto fines de semana largos y feriados)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="temporada-card temporada-media-card">
+                                        <div class="temporada-icon">
+                                            <i class="bi bi-thermometer-half"></i>
+                                        </div>
+                                        <h4 class="temporada-nombre">Temporada Media</h4>
+                                        <div class="temporada-fechas">
+                                            <p>1ro marzo al 1ro Mayo</p>
+                                            <p>20 Junio al 30 Junio</p>
+                                            <p>15 Noviembre al 19 Diciembre</p>
+                                            <p class="temporada-nota">(Excepto fines de semana largos y feriados)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="temporada-card temporada-alta-card">
+                                        <div class="temporada-icon">
+                                            <i class="bi bi-thermometer-high"></i>
+                                        </div>
+                                        <h4 class="temporada-nombre">Temporada Alta</h4>
+                                        <div class="temporada-fechas">
+                                            <p>20 Diciembre al 28 Febrero</p>
+                                            <p>1ro Julio al 30 Agosto</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
 
@@ -163,28 +262,27 @@
 </footer>
 <!-- Incluir Bootstrap JS y dependencias -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Incluir el script de precios -->
-<script src="./js/get-prices.js"></script>
-<!-- Incluir el script de envio de mensajes -->
-<script src="js/send-message.js"></script>
+
 
 <!-- Vendor JS Files -->
-<script src="../assets/vendor/aos/aos.js"></script>
-<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="../assets/vendor/php-email-form/validate.js"></script>
-<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- Calendario y Disponibilidad -->
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js'></script>
-<script src="js/get-calendar-altos.js"></script>
 
+<script src="assets/js/get_prices_temporada_martin.js"></script>
+<script src="assets/js/get_prices_temporada_ramayon.js"></script>
+<script src="assets/js/get_prices_temporada_molinos.js"></script>
 
 <!-- Template Main JS File -->
-<script src="../assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>
