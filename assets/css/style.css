@@ -1565,7 +1565,7 @@ section {
 
 .card-text {
   font-size: 1rem;
-  color: #4CAF50;
+  color: #404040 !important;
   /* Verde más vivo para el texto */
   margin-bottom: 15px;
 }
