@@ -47,7 +47,7 @@
   
   /*----------------- Molinos ---------------*/
   .aboutMolinos {
-    background: url("/pages/img/molinos/portada.jpg") center center;
+    background: url("../../pages/img/molinos/portada.jpg") center center;
     background-size: cover;
     position: relative;
     padding: 80px 0;
