@@ -1,0 +1,3608 @@
+html:
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>El Limón del Bolsón - Departamentos en El Bolsón</title>
+
+    <!--meta description-->
+    <meta name="description" content="El Limón del Bolsón, los mejores departamentos en El Bolsón, Río Negro. Alojamientos cómodos y con encanto, a pasos de la naturaleza. ¡Reservá ya y viví el sur argentino!">  
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Nice Select CSS ======-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.4.5.2.min.css">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+<!--====== PRELOADER PART START ======-->
+
+<div class="preloader">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--====== PRELOADER PART ENDS ======-->
+
+<!--====== INICIO PART START ======-->
+
+
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#inicio">
+                                <img src="assets/images/logo.png" alt="Logo El Limón del Bolsón" loading="lazy">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+
+
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            <ul id="nav" class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="#inicio">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="page-scroll" href="#sobreNosotros">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#departamentos">Departamentos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#promociones">Novedades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#tarifas">Tarifas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#contacto">Contacto</a>
+                                </li>
+                                <a href="https://wa.me/5492944118890" target="_blank">
+                                    <button class="boton-reserva">Reservá ahora</button>
+                                </a>
+
+
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+
+        <div id="inicio" class="header_slider">
+            <div class="single_slider bg_cover d-flex align-items-center"
+                style="background-image: url(assets/images/hero-area.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="slider_content">
+                                <h2 class="slider_title wow fadeInLeftBig" data-wow-duration="1.3s"
+                                    data-wow-delay="0.2s">
+                                    Somos<span> El Limón de El Bolsón</span></h2>
+                                <p class="wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">El Limón de
+                                    El Bolsón tiene los mejores departamentos para que disfrutes al máximo tu estadía en
+                                    El Bolsón. Contamos con todas las comodidades necesarias para que puedas relajarte y
+                                    disfrutar de los maravillosos paisajes de Rio Negro.</p>
+                                <a href="https://api.whatsapp.com/send?phone=5492944118890" class="main-btn wow fadeInLeftBig" data-wow-duration="1.3s"
+                                    data-wow-delay="0.8s">Contactanos</a>
+                            </div> <!-- slider content -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- single slider -->
+        </div> <!-- header slider -->
+    </section>
+
+    <!--====== INICIO PART ENDS ======-->
+
+    <!--====== SOBRE NOSOTROS PART START ======-->
+
+    <section id="sobreNosotros" class="about_area pt-130 pb-130">
+        <div class="about_wrapper">
+            <div class="about_image bg_cover" style="background-image: url(assets/images/about.jpg)"></div>
+            <!-- about image -->
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <div class="section_title">
+                                <h2>Sobre El Limón de El Bolsón</span></h2>
+                                <p>El Limón de El Bolsón son dos hermosos departamentos para hasta 3 personas con todas
+                                    las
+                                    comodidades necesarias para hacer de tu estadía la mejor. Contamos con WiFi, una
+                                    ubicación inmejorable a solo metros de El Bolsón y mucho más.</p>
+                            </div> <!-- section title -->
+
+                        </div> <!-- about content -->
+                        <div class="about_counter d-flex flex-wrap">
+                            <div class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                <div class="counter_wrapper">
+                                    <span class="counter">85</span>
+                                    <p>Opiniones totales</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+                            <div class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s" data-wow-delay="0.5s">
+                                <div class="counter_wrapper">
+                                    <span class="counter">3</span>
+                                    <p>Para 3 personas</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+                            <div class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s" data-wow-delay="0.8s">
+                                <div class="counter_wrapper">
+                                    <span class="counter">1000</span>
+                                    <p>Visitantes al año</p>
+                                </div> <!-- single wrapper -->
+                            </div> <!-- single counter -->
+
+
+                        </div> <!-- about_counter -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- about wrapper -->
+    </section>
+
+    <!--====== SOBRE NOSOTROS PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section id="services" class="services_area pt-120 mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h2>Nuestras comodidades</h2>
+                        <p>Ambos departamentos cuentan con todo lo que necesitás para disfrutar al máximo de tu estadía
+                            en El
+                            Bolsón.</p>
+                    </div> <!-- section title -->
+
+                            </ul>
+                        </div> <!-- navbar collapse -->
+                    </nav> <!-- navbar -->
+
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- header navbar -->
+
+    <div id="inicio" class="header_slider">
+        <div class="single_slider bg_cover d-flex align-items-center"
+             style="background-image: url(assets/images/hero-area.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="slider_content">
+                            <h2 class="slider_title wow fadeInLeftBig" data-wow-duration="1.3s"
+                                data-wow-delay="0.2s">
+                                Somos<span> El Limón del Bolsón</span></h2>
+                            <p class="wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">Descubrí la
+                                experiencia única de hospedarte en El Limón del Bolsón. Nuestros exclusivos
+                                departamentos han sido diseñados para ofrecerte el máximo confort durante tu estadía en
+                                este rincón paradisíaco de la Patagonia. Equipados con todas las comodidades, te
+                                brindamos el espacio ideal para relajarte. ¡Vení a vivir una estancia inolvidable!</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492944118890"
+                               class="main-btn wow fadeInLeftBig" data-wow-duration="1.3s"
+                               data-wow-delay="0.8s">Contactanos</a>
+                        </div> <!-- slider content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- single slider -->
+    </div> <!-- header slider -->
+</section>
+
+<!--====== INICIO PART ENDS ======-->
+
+<!--====== SOBRE NOSOTROS PART START ======-->
+
+<section id="sobreNosotros" class="about_area pt-130 pb-130">
+    <div class="about_wrapper">
+        <div class="about_image bg_cover" style="background-image: url(assets/images/about.jpg)"></div>
+        <!-- about image -->
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="about_content">
+                        <div class="section_title">
+                            <h2 class="title">Confort y exclusividad en el corazón de la Patagonia</h2>
+                            <p>En El Limón del Bolsón, te ofrecemos departamentos diseñados para brindarte todo lo
+                                necesario. Ideales para hasta 3 personas. Disfrutá de WiFi de alta velocidad, una
+                                ubicación privilegiada a solo metros del centro de El Bolsón y mucho más.</p>
+                        </div> <!-- section title -->
+
+                    </div> <!-- about content -->
+                    <div class="about_counter d-flex flex-wrap">
+                        <div class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                             data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <div class="counter_wrapper">
+                                <span class="counter">85</span>
+                                <p>Opiniones totales</p>
+                            </div> <!-- single wrapper -->
+                        </div> <!-- single counter -->
+
+                        <div class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                             data-wow-duration="1.3s" data-wow-delay="0.5s">
+                            <div class="counter_wrapper">
+                                <span class="counter">3</span>
+                                <p>Para 3 personas</p>
+                            </div> <!-- single wrapper -->
+                        </div> <!-- single counter -->
+
+                        <div class="single_counter counter_2 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                             data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="counter_wrapper">
+                                <span class="counter">1000</span>
+                                <p>Visitantes al año</p>
+                            </div> <!-- single wrapper -->
+                        </div> <!-- single counter -->
+
+
+                    </div> <!-- about_counter -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- about wrapper -->
+</section>
+
+<!--====== SOBRE NOSOTROS PART ENDS ======-->
+
+<!--====== SERVICES PART START ======-->
+
+<section id="services" class="services_area pt-120 mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section_title text-center pb-25">
+                    <h2 class="title">Comodidades pensadas para tu descanso</h2>
+                    <p>Nuestros departamentos están completamente equipados con todo lo que necesitás para disfrutar al
+                        máximo de tu estadía, combinando comodidad y funcionalidad.
+                        ¡Hospedate con nosotros y descubrí la magia de El Bolsón!</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_service mt-30 text-center wow fadeInUpBig" data-wow-duration="1.3s"
+                     data-wow-delay="0.2s">
+                    <div class="services_icon">
+
+                            <span class="material-icons">
+                                place
+                            </span>
+
+                    </div>
+                    <div class="services_content">
+                        <h4 class="title">Excelente Ubicación</h4>
+                        <p>A solo 3 cuadras del centro, en un barrio residencial y tranquilo.
+                        </p>
+                    </div>
+                </div> <!-- single service -->
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_service mt-30 text-center wow fadeInUpBig" data-wow-duration="1.3s"
+                     data-wow-delay="0.4s">
+                    <div class="services_icon">
+                            <span class="material-icons">
+                                local_parking
+                            </span>
+                    </div>
+                    <div class="services_content">
+                        <h4 class="title">Estacionamiento seguro y conveniente</h4>
+                        <p>No te preocupes por dónde dejar tu vehículo. Contamos con un espacio interno diseñado para tu
+                            tranquilidad y la seguridad de tu auto, brindándote la practicidad que necesitás durante tu
+                            estadía.
+                        </p>
+                    </div>
+                </div> <!-- single service -->
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_service mt-30 text-center wow fadeInUpBig" data-wow-duration="1.3s"
+                     data-wow-delay="0.6s">
+                    <div class="services_icon">
+                            <span class="material-icons">
+                                groups
+                            </span>
+                    </div>
+                    <div class="services_content">
+                        <h4 class="title">Espacio ideal para 2 o 3 personas</h4>
+                        <p>Cada departamento está equipado con una cómoda cama matrimonial y una individual, ofreciendo
+                            un ambiente acogedor y funcional.</p>
+                    </div>
+                </div> <!-- single service -->
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_service mt-30 text-center wow fadeInUpBig" data-wow-duration="1.3s"
+                     data-wow-delay="0.8s">
+                    <div class="services_icon">
+                            <span class="material-icons">
+                                kitchen
+                            </span>
+                    </div>
+                    <div class="services_content">
+                        <h4 class="title">Cocina totalmente equipada</h4>
+                        <p>Sentite como en casa con nuestra cocina completa, que te brinda la libertad de preparar tus
+                            comidas con total comodidad. Equipada con horno, microondas, heladera y todos los utensilios
+                            necesarios.</p>
+                    </div>
+                </div> <!-- single service -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+<!--Separator -->
+<!--INICIO SERVICIOS SECCIÓN-->
+<div class="services_deep">
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-6">
+                <h2 class="titleServicesDeep"> Nuestros servicios</h2>
+            </div>
+
+        </div>
+    </section>
+    <!--FIN GALERÍA SECCIÓN-->
+    <!--INICIO SECCIÓN DEPARTAMENTOS-->
+    <div class="services_deep" id="departamentos">
+        <div class="container-fluid p-5">
+
+
+            <h2 class="titleDepartamentos"> Conocé nuestros departamentos</h2>
+
+
+            <div class="departamentos-container">
+                
+                <div class="bano-section">
+                    <ul class="bano-list">
+                        <strong>
+                            <li>BAÑO</li>
+                        </strong>
+                        <li><span class="material-icons">done</span> Bidet</li>
+                        <li><span class="material-icons">done</span> Jabón</li>
+                        <li><span class="material-icons">done</span> Shampoo y acondicionador</li>
+                        <li><span class="material-icons">done</span> Ducha con mampara</li>
+                        <li><span class="material-icons">done</span> Toallas y toallones</li>
+                        
+                    </ul>
+                </div>
+                <div class="cocina-section">
+                    <ul>
+                        <strong>
+                            <li>COCINA</li>
+                        </strong>
+                        <li><span class="material-icons">done</span> Microondas</li>
+                        <li><span class="material-icons">done</span> Heladera</li>
+                        <li><span class="material-icons">done</span> Anafe</li>
+                        <li><span class="material-icons">done</span> Utensilios de cocina</li>
+                        <li><span class="material-icons">done</span> Condimentos</li>
+                    </ul>
+
+                </div>
+                <div class="patio-section">
+                    <ul>
+                        <li><span class="material-icons">done</span> 1 cama matrimonial
+                        </li>
+                        <li><span class="material-icons">done</span> 1 cama individual</li>
+                        <li><span class="material-icons">done</span> Smart TV</li>
+                        <li><span class="material-icons">done</span> Ropa de cama</li>
+                        <li><span class="material-icons">done</span> Patio y estacionamiento</li>
+                        <li><span class="material-icons">done</span> Ubicación a metros del centro</li>
+                        <li><span class="material-icons">done</span> WiFi y conexión a internet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="departamentos-carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide vh-50" data-interval="5000"
+                data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <a href="assets/images/galería/img1.jpg" data-lightbox="gallery">
+                            <img class="d-block w-100 img-fluid" src="assets/images/galería/img1.jpg" alt="Exteriores del departamento" loading="lazy">
+                        </a>
+                    </div>
+                   
+                    <div class="carousel-item">
+                        <a href="assets/images/galería/img3.jpg" data-lightbox="gallery"><img
+                                class="d-block w-100 img-fluid" src="assets/images/galería/img3.jpg"
+                                alt="interiores del departamento, televisor y mesa para almuerzo" loading="lazy"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="assets/images/galería/img4.jpg" data-lightbox="gallery"><img
+                                class="d-block w-100 img-fluid" src="assets/images/galería/img4.jpg"
+                                alt="baño de departamento, con mampara" loading="lazy"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="assets/images/galería/img5.jpg" data-lightbox="gallery"><img
+                                class="d-block w-100 img-fluid" src="assets/images/galería/img5.jpg"
+                                alt="cama matrimonial del departamento" loading="lazy"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="assets/images/galería/img6.jpg" data-lightbox="gallery"><img
+                                class="d-block w-100 img-fluid" src="assets/images/galería/img6.jpg"
+                                alt="cama individual del departamento" loading="lazy"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="assets/images/galería/img7.jpg" data-lightbox="gallery"><img
+                                class="d-block w-100 img-fluid" src="assets/images/galería/img7.jpg"
+                                alt="cocina completamente equipada del departamento" loading="lazy"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!--FIN SECCIÓN DEPARTAMENTOS-->
+    <!--====== PROMOCIONES PART START ======-->
+
+    <section id="promociones" class="blog_area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h2>Promociones</h2>
+                        <p>Enterate de nuestras promociones más recientes. Nuestras promociones se actualizan con
+                            frecuencia, por lo que te recomendamos estar atento.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row" id="promos">
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+
+    <!--====== PROMOCIONES PART ENDS ======-->
+    <!--Separator -->
+    <div class="divider"></div>
+    <!-- INICIO SECCION TESTIMONIOS-->
+    <section class="section section-lg bg-default testimonio_title">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-9 col-lg-7 wow-outer" style="padding-right: 0px;">
+                    <div class="wow slideInDown" style="margin-right: 1em;">
+                        <h2>Lo que dicen nuestros huéspedes</h2>
+                        <p class="text-opacity-80" style="margin-top: 2em;">¡Quienes nos elijen siempre disfrutan al cien porciento su estadía!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimoniales-section">
+        <div class="testimoniales-container">
+            <!--card 1-->
+            <div class="card" id="card-1">
+                <div class="header">
+                    <div class="image">
+                        <img src="assets/images/galería/testimonio1.png" loading="lazy" alt="foto de perfil usuario">
+                    </div>
+                    <div>
+                        <div class="stars">
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="name">Juli</p>
+                    </div>
+                </div>
+
+                <p class="message">
+                    Excelente lugar para hospedarse, impecable. Todo funciona y es muy cómodo.
+                    Los dueños muy amables y siempre atentos a nuestras necesidades. Si bien tiene cochera es ideal para
+                    quienes nos movemos a pie porque está cerca de todo. MUY MUY RECOMENDABLE!!! Volveremos!!!
+
+                </p>
+            </div>
+            <!--card 2-->
+            <div class="card" id="card-2">
+                <div class="header">
+                    <div class="image">
+                        <img src="assets/images/galería/testimonio2.png" alt="foto de perfil usuario" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="stars">
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="name">Leo Brailovsky</p>
+                    </div>
+                </div>
+
+                <p class="message">
+                    Muy cómodo y lindo, camas cómodas, mucho lugar para guardar cosas, y cocina muy completa. Te reciben
+                    con una mermelada deliciosa 😛
+                    Queda cerca del centro y de Humus, fácil llegar a cualquier lado sin caminar de más…
+                </p>
+            </div>
+            <!--card 3-->
+            <div class="card" id="card-3">
+                <div class="header">
+                    <div class="image">
+                        <img src="assets/images/galería/testimonio3.png" alt="foto de perfil usuario" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="stars">
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="name">Luciana Perrone Rey</p>
+                    </div>
+                </div>
+
+                <p class="message">
+                    No solo que la ubicación es inmejorable, la atención, las comodidades, la limpieza, todo es
+                    perfecto. De los lugares más lindos y tranquilos de todo el bolsón. Recomiendo 100%.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FIN SECCION TESTIMONIOS-->
+
+    <!--INICIO SECCIÓN TARIFAS-->
+    <section id="tarifas">
+        <div class="divider" ></div>
+        <div class="container my-5">
+            <div class="section_title text-center pb-25">
+                <h2>Consulta las tarifas vigentes</h2>
+                <p>Nuestros precios están actualizados para la temporada actual. Estos precios son en <strong>DÓLARES</strong>.
+                    <br> <strong style="text-decoration: underline">SE ACEPTAN DISTINTOS MÉTODOS DE PAGO: DÓLARES, PESOS Y CRIPTOMONEDAS.</strong>
+                    <br> Ingrese la cantidad de personas y la cantidad de días para poder acceder a las tarifas. </p>
+            </div>
+    
+    
+            <!-- Formulario de entrada -->
+            <form id="reservationForm" class="row g-3 mt-2">
+                <div class="col-md-4">
+                    <label for="inputFechaEntrada" class="form-label">Fecha de Entrada</label>
+                    <input type="date" class="form-control" id="inputFechaEntrada" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputFechaSalida" class="form-label">Fecha de Salida</label>
+                    <input type="date" class="form-control" id="inputFechaSalida" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputPasajeros" class="form-label">Cantidad de Pasajeros</label>
+                    <select class="form-select" id="inputPasajeros" required>
+                        <option value="" disabled selected>Seleccione</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>            </div>
+                <div class="col-12">
+                    <button type="submit" class="btn pricesButtons mt-4">Buscar tarifa</button>
+                </div>
+            </form>
+    
+            <!-- Espacio para mostrar mensajes de error -->
+            <div id="alertContainer" class="mt-3"></div>
+    
+            <!-- Card para mostrar la información de la estadía -->
+            <div id="resultCard" class="card mt-5 d-none">
+                <!-- Imagen de la card (puedes reemplazar la URL por una de tu elección) -->
+                <img src="./assets/images/galería/cama-img1.jpg" class="card-img-top" alt="Departamento de 1 dormitorio" loading="lazy">
+                <div class="card-body">
+                    <h5 class="card-title">Departamento de 1 dormitorio</h5>
+                    <p class="card-text">
+                        <strong>Cantidad de Personas:</strong> <span id="paxDisplay"></span><br>
+                        <strong>Noches:</strong> <span id="noches"></span><br>
+                        <strong>Precio por Noche:</strong> <span id="tarifaDiaria"></span>
+                    </p>
+                    <p class="final-price mt-4">
+                        Total: <span id="tarifaTotal"></span>
+                    </p>
+                    <!-- Botón Reservar con id para identificarlo -->
+                    <a href="#" id="reserveBtn" class="btn pricesButtons mt-4">Reservar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--INICIO SECCIÓN TARIFAS-->
+
+    <!--====== CONTACTO PART START ======-->
+
+    <section id="contacto" class="contact_area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h3 class="title">Contacto</h3>
+                        <p>Si querés vivir la experiencia de El Bolsón en nuestros departamentos, contactanos y te
+                            responderemos a la brevedad.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="contact_form">
+                <form id="contact-form">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="single_form">
+                                <input type="text" name="name" id="name" placeholder="Nombre">
+                            </div> <!-- single form -->
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="single_form">
+                                <textarea name="message" id="message" placeholder="Mensaje"></textarea>
+                            </div> <!-- single form -->
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="single_form">
+                                <button type="submit" class="main-btn">Enviar mensaje</button>
+                            </div> <!-- single form -->
+                        </div>
+                    </div> <!-- row -->
+                    <p class="form-message pt-30"></p>
+                </form>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACTO PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <section id="footer" class="footer_area">
+        <div class="footer_widget pt-80 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 order-md-1 order-lg-1">
+                        <div class="footer_about mt-50">
+                            <a href="#"><img src="assets/images/logo.png" alt="logo de El Limón del Bolsón" loading="lazy"></a>
+                            <p>El Limón de
+                                El Bolsón tiene los mejores departamentos para que disfrutes al máximo tu estadía en
+                                El Bolsón. Contamos con todas las comodidades necesarias para que puedas relajarte y
+                                disfrutar de los maravillosos paisajes de Rio Negro.</p>
+                            <ul class="social">
+                                <li><a href="https://www.booking.com/searchresults.es-ar.html?aid=311839&label=el-limon-del-bolson-ZewPymgbuZHg5L_Xb2tCUAS708185788523%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2363603763484%3Alp20026%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YasQqy722txiCD_GKCoqnfQ&gclid=CjwKCAiA74G9BhAEEiwA8kNfpTbLLYEJiF7tIruflJSeDRPdVhdfHDTTa8OSdAvhM9L_i_lv7DHd9RoCjm0QAvD_BwE&highlighted_hotels=8752042&redirected=1&city=-985282&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=da7a4ff5c0c62840990c0b31dea7944d" target="_blank"><img src="assets/images/galería/booking-icon.png" alt="booking logo" loading="lazy"></a>
+                                </li>
+                                
+                                <li><a class="social_3" href="https://www.instagram.com/ellimondelbolson?igsh=MXhvaDViYWZkOWI1eQ%3D%3D" target="_blank"><i
+                                            class="lni lni-instagram-original"></i></a>
+                                </li>
+                                
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-4 col-md-12 order-md-3 order-lg-2">
+                        <div class="footer_link_wrapper d-flex flex-wrap">
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">Enlaces</h4>
+                                <ul class="link">
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
+                                    <li><a href="#departamentos">Departamentos</a></li>
+                                    <li><a href="#promociones">Novedades</a></li>
+                                    <li><a href="#tarifas">Tarifas</a></li>
+                                    <li><a href="#contacto">Contacto</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+
+            <div class="col-12 col-lg-8 col-md-6">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <ul class="listServices">
+                            <li><span class="material-icons">done</span> Cocina totalmente equipada y microondas
+                            </li>
+                            <li><span class="material-icons">done</span> Smart TV y WiFi</li>
+                            <li><span class="material-icons">done</span> Toallas y Toallones</li>
+                            <li><span class="material-icons">done</span> Utensilios de cocina</li>
+
+
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <ul class="listServices">
+                            <li><span class="material-icons">done</span> Patio</li>
+                            <li><span class="material-icons">done</span> Estacionamiento interno</li>
+                            <li><span class="material-icons">done</span> Ubicación a metros del bolsón</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--FIN SECCIÓN SERVICIOS-->
+
+
+<!--INICIO GALERÍA SECCIÓN-->
+<section class="wow fadeInUp container-fluid mt-5 mb-5">
+    <h2 class="text-center">Galería de imágenes</h2>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/balcon-galeria.jpg" data-lightbox="gallery">
+                    <img src="assets/images/balcon-galeria.jpg" alt="El departamento tiene un balcón de hierro con puerta corrediza" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/galería/galeria-cocina.jpg" data-lightbox="gallery">
+                    <img src="assets/images/galería/galeria-cocina.jpg" alt="Cocina totalmente equipada con una heladera y horno" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/habitacion-galeria.jpg" data-lightbox="gallery">
+                    <img src="assets/images/habitacion-galeria.jpg" alt="Cama matrimonial con piso de madera" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/toallas-galeria.jpg" data-lightbox="gallery">
+                    <img src="assets/images/toallas-galeria.jpg" alt="Toallas y toallones con un jabón" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/bano-galeria.jpg" data-lightbox="gallery">
+                    <img src="assets/images/bano-galeria.jpg" alt="Baño moderno con ducha" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mb-4">
+                <a href="assets/images/galería/dormitorio.jpg" data-lightbox="gallery">
+                    <img src="assets/images/galería/dormitorio.jpg" alt="Dormitorio individual con una cama de una plaza" class="img-fluid rounded shadow">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--FIN GALERÍA SECCIÓN-->
+<!--INICIO SECCIÓN DEPARTAMENTOS-->
+<div class="services_deep" id="departamentos">
+    <div class="container-fluid p-5">
+
+
+        <h2 class="titleDepartamentos"> Conocé nuestros departamentos</h2>
+
+
+        <div class="departamentos-container">
+            <div class="habitaciones-section">
+                <ul class="habitaciones-list">
+                    <strong>
+                        <li>HABITACIONES</li>
+                    </strong>
+                    <li><span class="material-icons">done</span> 1 cama matrimonial
+                    </li>
+                    <li><span class="material-icons">done</span> 1 cama individual</li>
+                    <li><span class="material-icons">done</span> Smart TV</li>
+                </ul>
+            </div>
+            <div class="bano-section">
+                <ul class="bano-list">
+                    <strong>
+                        <li>BAÑO</li>
+                    </strong>
+                    <li><span class="material-icons">done</span> Bidet</li>
+                    <li><span class="material-icons">done</span> Jabón</li>
+                    <li><span class="material-icons">done</span> Shampoo y acondicionador</li>
+                    <li><span class="material-icons">done</span> Ducha con mampara</li>
+                    <li><span class="material-icons">done</span> Toallas y toallones</li>
+                </ul>
+            </div>
+            <div class="cocina-section">
+                <ul>
+                    <strong>
+                        <li>COCINA</li>
+                    </strong>
+                    <li><span class="material-icons">done</span> Microondas</li>
+                    <li><span class="material-icons">done</span> Heladera</li>
+                    <li><span class="material-icons">done</span> Anafe</li>
+                    <li><span class="material-icons">done</span> Utensilios de cocina</li>
+                    <li><span class="material-icons">done</span> Condimentos</li>
+                </ul>
+
+            </div>
+            <div class="patio-section">
+                <ul>
+                    <li><span class="material-icons">done</span> Patio y estacionamiento</li>
+                    <li><span class="material-icons">done</span> Ubicación a metros del centro</li>
+                    <li><span class="material-icons">done</span> WiFi y conexión a internet</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="departamentos-carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide vh-50" data-interval="5000"
+             data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <a href="assets/images/galería/img1.jpg" data-lightbox="gallery">
+                        <img class="d-block w-100 img-fluid" src="assets/images/galería/img1.jpg" alt="First slide">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img2.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img2.jpg"
+                            alt="Second slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img3.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img3.jpg"
+                            alt="Third slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img4.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img4.jpg"
+                            alt="Fourth slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img5.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img5.jpg"
+                            alt="Fifth slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img6.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img6.jpg"
+                            alt="Sixth slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="assets/images/galería/img7.jpg" data-lightbox="gallery"><img
+                            class="d-block w-100 img-fluid" src="assets/images/galería/img7.jpg"
+                            alt="Seventh slide"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+</div>
+<!--FIN SECCIÓN DEPARTAMENTOS-->
+<!--====== PROMOCIONES PART START ======-->
+
+<section id="promociones" class="blog_area pt-120 pb-130">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section_title text-center pb-25">
+                    <h2 class="title">Ofertas especiales</h2>
+                    <p>Descubrí nuestras últimas promociones y aprovechá descuentos exclusivos para tu próxima estadía.
+                        Las ofertas se renuevan constantemente, brindándote siempre las mejores oportunidades para
+                        disfrutar de El Bolsón al mejor precio.</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row" id="promos">
+
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+
+<!--====== PROMOCIONES PART ENDS ======-->
+<!--Separator -->
+<div class="divider"></div>
+<!-- INICIO SECCION TESTIMONIOS-->
+<section class="section section-lg bg-default testimonio_title">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 wow-outer" style="padding-right: 0px;">
+                <div class="wow slideInDown">
+                    <h2>Lo que dicen nuestros huéspedes</h2>
+                    <p class="text-opacity-80" style="margin-top: 2em;">¡Quienes nos eligen siempre disfrutan al cien
+                        porciento su estadía!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimoniales-section">
+    <div class="testimoniales-container">
+        <!--card 1-->
+        <div class="card" id="card-1">
+            <div class="header">
+                <div class="image">
+                    <img src="assets/images/galería/testimonio1.png" loading="lazy" alt="foto de perfil usuario">
+                </div>
+                <div>
+                    <div class="stars">
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="name">Juli</p>
+                </div>
+            </div>
+
+            <p class="message">
+                Excelente lugar para hospedarse, impecable. Todo funciona y es muy cómodo.
+                Los dueños muy amables y siempre atentos a nuestras necesidades. Si bien tiene cochera es ideal para
+                quienes nos movemos a pie porque está cerca de todo. MUY MUY RECOMENDABLE!!! Volveremos!!!
+
+            </p>
+        </div>
+        <!--card 2-->
+        <div class="card" id="card-2">
+            <div class="header">
+                <div class="image">
+                    <img src="assets/images/galería/testimonio2.png" alt="foto de perfil usuario" loading="lazy">
+                </div>
+                <div>
+                    <div class="stars">
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="name">Leo Brailovsky</p>
+                </div>
+            </div>
+
+            <p class="message">
+                Muy cómodo y lindo, camas cómodas, mucho lugar para guardar cosas, y cocina muy completa. Te reciben
+                con una mermelada deliciosa 😛
+                Queda cerca del centro y de Humus, fácil llegar a cualquier lado sin caminar de más…
+            </p>
+        </div>
+        <!--card 3-->
+        <div class="card" id="card-3">
+            <div class="header">
+                <div class="image">
+                    <img src="assets/images/galería/testimonio3.png" alt="foto de perfil usuario" loading="lazy">
+                </div>
+                <div>
+                    <div class="stars">
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="name">Luciana Perrone Rey</p>
+                </div>
+            </div>
+
+            <p class="message">
+                No solo que la ubicación es inmejorable, la atención, las comodidades, la limpieza, todo es
+                perfecto. De los lugares más lindos y tranquilos de todo el bolsón. Recomiendo 100%.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!--FIN SECCION TESTIMONIOS-->
+
+<!--INICIO SECCIÓN TARIFAS-->
+<section id="tarifas">
+    <div class="divider"></div>
+    <div class="container my-5">
+        <div class="section_title text-center pb-25">
+            <h2 class="title">Consulta nuestras tarifas actualizadas.</h2>
+            <p>Mantenemos nuestros precios actualizados según la temporada vigente.
+                <br> <strong style="text-decoration: underline">Las tarifas están expresadas en dólares, y ofrecemos múltiples opciones de pago: dólares, pesos y criptomonedas.
+                </strong>
+                <br>Ingresá la cantidad de personas y la duración de tu estadía para conocer el costo.</p>
+        </div>
+
+
+        <!-- Formulario de entrada -->
+        <form id="reservationForm" class="row g-3 mt-2">
+            <div class="col-md-4">
+                <label for="inputFechaEntrada" class="form-label">Fecha de Entrada</label>
+                <input type="date" class="form-control" id="inputFechaEntrada" required>
+            </div>
+            <div class="col-md-4">
+                <label for="inputFechaSalida" class="form-label">Fecha de Salida</label>
+                <input type="date" class="form-control" id="inputFechaSalida" required>
+            </div>
+            <div class="col-md-4">
+                <label for="inputPasajeros" class="form-label">Cantidad de Pasajeros</label>
+                <select class="form-select" id="inputPasajeros" required>
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select></div>
+            <div class="col-12">
+                <button type="submit" class="btn pricesButtons mt-4">Buscar tarifa</button>
+            </div>
+        </form>
+
+        <!-- Espacio para mostrar mensajes de error -->
+        <div id="alertContainer" class="mt-3"></div>
+
+        <!-- Card para mostrar la información de la estadía -->
+        <div id="resultCard" class="card mt-5 d-none">
+            <!-- Imagen de la card (puedes reemplazar la URL por una de tu elección) -->
+            <img src="./assets/images/galería/cama-img1.jpg" class="card-img-top" alt="Departamento de 1 dormitorio">
+            <div class="card-body">
+                <h5 class="card-title">Departamento de 1 dormitorio</h5>
+                <p class="card-text">
+                    <strong>Cantidad de Personas:</strong> <span id="paxDisplay"></span><br>
+                    <strong>Noches:</strong> <span id="noches"></span><br>
+                    <strong>Precio por Noche:</strong> <span id="tarifaDiaria"></span>
+                </p>
+                <p class="final-price mt-4">
+                    Total: <span id="tarifaTotal"></span>
+                </p>
+                <!-- Botón Reservar con id para identificarlo -->
+                <a href="#" id="reserveBtn" class="btn pricesButtons mt-4">Reservar</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--INICIO SECCIÓN TARIFAS-->
+
+<!--====== CONTACTO PART START ======-->
+
+<section id="contacto" class="contact_area pt-120 pb-130">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section_title text-center pb-25">
+                    <h3 class="title">Contacto</h3>
+                    <p>Si querés vivir la experiencia de El Bolsón en nuestros departamentos, contactanos y te
+                        responderemos a la brevedad.</p>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="contact_form">
+            <form id="contact-form">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="single_form">
+                            <input type="text" name="name" id="name" placeholder="Nombre">
+                        </div> <!-- single form -->
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="single_form">
+                            <textarea name="message" id="message" placeholder="Mensaje"></textarea>
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="single_form">
+                            <button type="submit" class="main-btn">Enviar mensaje</button>
+                        </div> <!-- single form -->
+                    </div>
+                </div> <!-- row -->
+                <p class="form-message pt-30"></p>
+            </form>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+<!--====== CONTACTO PART ENDS ======-->
+
+
+    <!--botón flotante whatsapp-->
+    <a href="https://wa.me/5492944118890" class="whatsapp-float" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" loading="lazy" alt="WhatsApp logo">
+    </a>
+    
+
+<!--====== FOOTER PART START ======-->
+
+
+<section id="footer" class="footer_area">
+    <div class="footer_widget pt-80 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 order-md-1 order-lg-1">
+                    <div class="footer_about mt-50">
+                        <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+                        <p>El Limón de
+                            El Bolsón tiene los mejores departamentos para que disfrutes al máximo tu estadía en
+                            El Bolsón. Contamos con todas las comodidades necesarias para que puedas relajarte y
+                            disfrutar de los maravillosos paisajes de Rio Negro.</p>
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.booking.com/searchresults.es-ar.html?aid=311839&label=el-limon-del-bolson-ZewPymgbuZHg5L_Xb2tCUAS708185788523%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2363603763484%3Alp20026%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YasQqy722txiCD_GKCoqnfQ&gclid=CjwKCAiA74G9BhAEEiwA8kNfpTbLLYEJiF7tIruflJSeDRPdVhdfHDTTa8OSdAvhM9L_i_lv7DHd9RoCjm0QAvD_BwE&highlighted_hotels=8752042&redirected=1&city=-985282&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=da7a4ff5c0c62840990c0b31dea7944d"
+                                   target="_blank"><img src="assets/images/galería/booking-icon.png" alt="booking logo"></a>
+                            </li>
+
+                            <li><a class="social_3"
+                                   href="https://www.instagram.com/ellimondelbolson?igsh=MXhvaDViYWZkOWI1eQ%3D%3D"
+                                   target="_blank"><i
+                                    class="lni lni-instagram-original"></i></a>
+                            </li>
+
+                        </ul>
+                    </div> <!-- footer about -->
+                </div>
+                <div class="col-lg-4 col-md-12 order-md-3 order-lg-2">
+                    <div class="footer_link_wrapper d-flex flex-wrap">
+                        <div class="footer_link mt-45">
+                            <h4 class="footer_title">Enlaces</h4>
+                            <ul class="link">
+                                <li><a href="#inicio">Inicio</a></li>
+                                <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
+                                <li><a href="#departamentos">Departamentos</a></li>
+                                <li><a href="#promociones">Novedades</a></li>
+                                <li><a href="#tarifas">Tarifas</a></li>
+                                <li><a href="#contacto">Contacto</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+
+                    </div> <!-- footer link wrapper -->
+                </div>
+                <div class="col-lg-4 col-md-6 order-md-2 order-lg-3">
+                    <div class="footer_subscribe mt-45">
+                        <h4 class="footer_title">Estemos en contacto</h4>
+                        <p>Teléfono: +54 9 294 411-8890</p>
+
+                    </div> <!-- footer subscribe -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <p class="text-center mt-90">© 2025 El Limón del Bolsón. Todos los derechos reservados. <br> Diseñado y
+            desarrollado por Agustín Martin y Candelaria Piña
+        </p>
+    </div> <!-- footer widget -->
+</section>
+
+<!--====== FOOTER PART ENDS ======-->
+
+<!--botón flotante whatsapp-->
+<a href="https://wa.me/5492944118890" class="whatsapp-float" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+</a>
+
+
+<!--====== PART START ======-->
+
+
+<!--====== PART ENDS ======-->
+
+
+<!--====== Jquery js ======-->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+<!--====== Bootstrap js ======-->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.4.5.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+
+
+<!--====== Scrolling Nav js ======-->
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/scrolling-nav.js"></script>
+
+<!--====== Counter Up js ======-->
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+
+<!--====== Nice Select js ======-->
+<script src="assets/js/jquery.nice-select.min.js"></script>
+
+<!--====== WOW js ======-->
+<script src="assets/js/wow.min.js"></script>
+
+<!--====== Main js ======-->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/form-handler.js"></script>
+<script src="assets/js/promos.js"></script>
+<script src="assets/js/prices.js"></script>
+
+</body>
+
+</html>
+css:
+css:
+/*-----------------------------------------------------------------------------------
+
+    Template Name: TraveLand - Tour and Travel Agency Template
+    Author: UIdeck
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header
+    03. Hero
+	04. Footer
+
+-----------------------------------------------------------------------------------*/
+/*===========================
+    1. COMMON css 
+===========================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #747E88;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #EEC41E;
+}
+
+a {
+    color: #EEC41E;
+}
+
+i,
+span,
+a {
+    display: inline-block;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #38424D;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #747E88;
+    margin: 0px;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/*===== All Button Style =====*/
+.boton-reserva {
+    background-color: #9CC18D;
+    color: #222;
+
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton-reserva:hover {
+    background-color: #EEC41E;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    padding: 0 40px;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    background-color: #EEC41E;
+}
+
+.main-btn:hover {
+    background-color: rgba(238, 196, 30, 0.8);
+    color: #fff;
+    -webkit-box-shadow: 0px 3px 22px 0px rgba(238, 196, 30, 0.3);
+    box-shadow: 0px 3px 22px 0px rgba(238, 196, 30, 0.3);
+}
+
+.main-btn.main-btn-2 {
+    background-color: #fff;
+    color: #EEC41E;
+    border-color: #EEC41E;
+}
+
+.main-btn.main-btn-2:hover {
+    background-color: #EEC41E;
+    border-color: #EEC41E;
+    color: #fff;
+}
+
+/*===== Section Title Style =====*/
+.section_title .title {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section_title .title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section_title .title {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .section_title .title {
+        font-size: 30px;
+    }
+}
+
+.section_title .title span {
+    color: #EEC41E;
+}
+
+.section_title p {
+    margin-top: 20px;
+}
+
+/*===== All Slick Slide Outline Style =====*/
+.slick-slide {
+    outline: 0;
+}
+
+/*===== All Preloader Style =====*/
+.preloader {
+    /* Body Overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    /* Change Background Color */
+    background: #fff;
+    z-index: 99999;
+}
+
+.preloader .loader {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.preloader .loader .ytp-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 64px;
+    margin-left: -32px;
+    z-index: 18;
+    pointer-events: none;
+}
+
+.preloader .loader .ytp-spinner .ytp-spinner-container {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 100%;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    -webkit-animation: ytp-spinner-linspin 1568.2353ms linear infinite;
+    animation: ytp-spinner-linspin 1568.2353ms linear infinite;
+}
+
+.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+    animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+
+.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    right: 50%;
+}
+
+.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    left: 50%;
+}
+
+.preloader .loader .ytp-spinner-circle {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    border-style: solid;
+    /* Spinner Color */
+    border-color: #EEC41E #EEC41E #F9FAFB;
+    border-radius: 50%;
+    border-width: 6px;
+}
+
+.preloader .loader .ytp-spinner-left .ytp-spinner-circle {
+    left: 0;
+    right: -100%;
+    border-right-color: #F9FAFB;
+    -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+    animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+
+.preloader .loader .ytp-spinner-right .ytp-spinner-circle {
+    left: -100%;
+    right: 0;
+    border-left-color: #F9FAFB;
+    -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+    animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+
+/* Preloader Animations */
+@-webkit-keyframes ytp-spinner-linspin {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ytp-spinner-linspin {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ytp-spinner-easespin {
+    12.5% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    25% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+    37.5% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+    50% {
+        -webkit-transform: rotate(540deg);
+        transform: rotate(540deg);
+    }
+    62.5% {
+        -webkit-transform: rotate(675deg);
+        transform: rotate(675deg);
+    }
+    75% {
+        -webkit-transform: rotate(810deg);
+        transform: rotate(810deg);
+    }
+    87.5% {
+        -webkit-transform: rotate(945deg);
+        transform: rotate(945deg);
+    }
+    to {
+        -webkit-transform: rotate(1080deg);
+        transform: rotate(1080deg);
+    }
+}
+
+@keyframes ytp-spinner-easespin {
+    12.5% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    25% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+    37.5% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+    50% {
+        -webkit-transform: rotate(540deg);
+        transform: rotate(540deg);
+    }
+    62.5% {
+        -webkit-transform: rotate(675deg);
+        transform: rotate(675deg);
+    }
+    75% {
+        -webkit-transform: rotate(810deg);
+        transform: rotate(810deg);
+    }
+    87.5% {
+        -webkit-transform: rotate(945deg);
+        transform: rotate(945deg);
+    }
+    to {
+        -webkit-transform: rotate(1080deg);
+        transform: rotate(1080deg);
+    }
+}
+
+@-webkit-keyframes ytp-spinner-left-spin {
+    0% {
+        -webkit-transform: rotate(130deg);
+        transform: rotate(130deg);
+    }
+    50% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    to {
+        -webkit-transform: rotate(130deg);
+        transform: rotate(130deg);
+    }
+}
+
+@keyframes ytp-spinner-left-spin {
+    0% {
+        -webkit-transform: rotate(130deg);
+        transform: rotate(130deg);
+    }
+    50% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    to {
+        -webkit-transform: rotate(130deg);
+        transform: rotate(130deg);
+    }
+}
+
+@-webkit-keyframes ytp-right-spin {
+    0% {
+        -webkit-transform: rotate(-130deg);
+        transform: rotate(-130deg);
+    }
+    50% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    to {
+        -webkit-transform: rotate(-130deg);
+        transform: rotate(-130deg);
+    }
+}
+
+@keyframes ytp-right-spin {
+    0% {
+        -webkit-transform: rotate(-130deg);
+        transform: rotate(-130deg);
+    }
+    50% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    to {
+        -webkit-transform: rotate(-130deg);
+        transform: rotate(-130deg);
+    }
+}
+
+/*===========================
+     02.HEADER css 
+===========================*/
+/*===== NAVBAR =====*/
+.header_navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.21);
+}
+
+.sticky {
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.sticky .navbar {
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sticky .navbar {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .sticky .navbar {
+        padding: 15px 0;
+    }
+}
+
+.navbar {
+    padding: 0;
+    border-radius: 5px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        padding: 20px 0;
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+.navbar-toggler .toggler-icon {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: 5px 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.navbar-toggler.active .toggler-icon:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 7px;
+}
+
+.navbar-toggler.active .toggler-icon:nth-of-type(2) {
+    opacity: 0;
+}
+
+.navbar-toggler.active .toggler-icon:nth-of-type(3) {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    top: -7px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+        -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+        padding: 5px 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9;
+        -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+        padding: 5px 12px;
+    }
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    padding: 30px 15px;
+    position: relative;
+}
+
+.navbar-nav .nav-item a::before {
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #EEC41E;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-item a::before {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-item a::before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-item a {
+        display: block;
+        padding: 4px 0;
+        color: #222;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-item a {
+        display: block;
+        padding: 4px 0;
+        color: #222;
+    }
+}
+
+.navbar-nav .nav-item.active > a::before, .navbar-nav .nav-item:hover > a::before {
+    width: 100%;
+}
+
+.navbar-nav .nav-item:hover .sub-menu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-item:hover .sub-menu {
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-item:hover .sub-menu {
+        top: 0;
+    }
+}
+
+.navbar-nav .nav-item .sub-menu {
+    width: 200px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 110%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-item .sub-menu {
+        position: relative;
+        width: 100%;
+        top: 0;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-item .sub-menu {
+        position: relative;
+        width: 100%;
+        top: 0;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.navbar-nav .nav-item .sub-menu li {
+    display: block;
+}
+
+.navbar-nav .nav-item .sub-menu li a {
+    display: block;
+    padding: 8px 20px;
+    color: #222;
+}
+
+.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+    padding-left: 25px;
+    color: #EEC41E;
+}
+
+.navbar-nav .sub-nav-toggler {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .sub-nav-toggler {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: none;
+        color: #222;
+        font-size: 18px;
+        border: 0;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .sub-nav-toggler {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: none;
+        color: #222;
+        font-size: 18px;
+        border: 0;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.navbar-nav .sub-nav-toggler span {
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid #222;
+    border-bottom: 1px solid #222;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    top: -5px;
+}
+
+.sticky .navbar-toggler .toggler-icon {
+    background-color: #222;
+}
+
+.sticky .navbar-nav .nav-item a {
+    color: #222;
+}
+
+.sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
+    color: #EEC41E;
+}
+
+/*===== SLIDER =====*/
+.single_slider {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 165px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .single_slider {
+        height: 950px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_slider {
+        border-bottom-left-radius: 105px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_slider {
+        height: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_slider {
+        height: 600px;
+        border-bottom-left-radius: 85px;
+    }
+}
+
+.single_slider::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(56, 66, 77, 0.24);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.slider_content {
+    padding-top: 30px;
+}
+
+.slider_content .slider_title {
+    font-size: 54px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .slider_content .slider_title {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider_content .slider_title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .slider_content .slider_title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider_content .slider_title {
+        font-size: 40px;
+    }
+}
+
+.slider_content .slider_title span {
+    display: contents;
+    color: #EEC41E;
+}
+
+.slider_content p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .slider_content p {
+        font-size: 16px;
+    }
+}
+
+.slider_content .main-btn {
+    margin-top: 35px;
+}
+
+/*===========================
+        03.ABOUT css 
+===========================*/
+.about_wrapper {
+    position: relative;
+}
+
+.about_image {
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 220px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .about_image {
+        border-top-right-radius: 170px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about_image {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        border-top-right-radius: 170px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about_image {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        border-top-right-radius: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about_content {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about_content {
+        margin-top: 45px;
+    }
+}
+
+.about_content .main-btn {
+    margin-top: 45px;
+}
+
+.about_content .main-btn:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about_counter {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 30px;
+}
+
+.single_counter {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(173, 206, 243, 0.25);
+    box-shadow: 0px 0px 25px 0px rgba(173, 206, 243, 0.25);
+    width: 192px;
+    height: 142px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_counter {
+        width: 20.6%;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_counter {
+        width: 40%;
+        padding: 10px;
+    }
+}
+
+.single_counter span {
+    font-size: 34px;
+    font-weight: 700;
+    color: #38424D;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_counter span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_counter span {
+        font-size: 24px;
+    }
+}
+
+.single_counter p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_counter p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_counter p {
+        font-size: 14px;
+    }
+}
+
+.single_counter.counter_1 {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.single_counter.counter_2 {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/*===========================
+     04.DESTINATION css 
+===========================*/
+.destination_area {
+    background-color: #F9FAFB;
+}
+
+.single_destination .destination_image img {
+    width: 100%;
+}
+
+.single_destination .destination_content {
+    background-color: #fff;
+    padding: 25px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.2);
+    position: relative;
+}
+
+.single_destination .destination_content .main-btn {
+    font-size: 14px;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #38424D;
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(173, 206, 243, 0.66);
+    box-shadow: 0px 3px 30px 0px rgba(173, 206, 243, 0.66);
+    position: absolute;
+    right: 25px;
+    top: -18px;
+}
+
+.single_destination .destination_content .title a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #38424D;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media (max-width: 767px) {
+    .single_destination .destination_content .title a {
+        font-size: 18px;
+    }
+}
+
+.single_destination .destination_content .price {
+    font-size: 16px;
+    margin-top: 10px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single_destination .destination_content .more {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #EEC41E;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.single_destination:hover .destination_content {
+    background-color: #EEC41E;
+}
+
+.single_destination:hover .destination_content .title a {
+    color: #fff;
+}
+
+.single_destination:hover .destination_content .price {
+    color: #fff;
+}
+
+.single_destination:hover .destination_content .more {
+    color: #EEC41E;
+    background-color: #fff;
+}
+
+/*===========================
+      05.SERVICE css 
+===========================*/
+.single_service {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.1);
+    padding: 25px 15px;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.services_icon span {
+    color: #9CC18D;
+    font-size: 60px;
+}
+
+.single_service .services_icon i {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #EEC41E;
+    line-height: 71px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #EEC41E;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single_service .services_content .title {
+    margin-top: 25px;
+    color: #38424D;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_service .services_content .title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_service .services_content .title {
+        font-size: 20px;
+    }
+}
+
+.single_service .services_content p {
+    margin-top: 15px;
+}
+
+.single_service:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(173, 206, 243, 0.2);
+}
+
+.single_service:hover .services_icon i {
+    background: #EEC41E;
+    color: #fff;
+}
+
+/*===========================
+      06.GELLARY css 
+===========================*/
+.single_gallery {
+    position: relative;
+}
+
+.single_gallery img {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.single_gallery a {
+    width: 73px;
+    height: 73px;
+    line-height: 73px;
+    text-align: center;
+    background-color: #EEC41E;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.single_gallery:hover a {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/*===========================
+      07.TEAM css 
+===========================*/
+.team_area {
+    background-color: #F9FAFB;
+}
+
+.single_team {
+    position: relative;
+}
+
+.single_team .team_image {
+    position: relative;
+    overflow: hidden;
+}
+
+.single_team .team_image img {
+    width: 100%;
+}
+
+.single_team .team_image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -80px;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewX(-30deg) translateX(-100%);
+    transform: skewX(-30deg) translateX(-100%);
+    background-color: rgba(238, 196, 30, 0.9);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_team .team_image::before {
+        left: -65px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_team .team_image::before {
+        left: -103px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_team .team_image::before {
+        left: -90px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single_team .team_image::before {
+        left: -75px;
+    }
+}
+
+.single_team .team_content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_team .team_content {
+        padding: 20px;
+    }
+}
+
+.single_team .team_content .team_name {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+}
+
+.single_team .team_content p {
+    margin-top: 5px;
+    font-weight: 300;
+    color: #fff;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+}
+
+.single_team .team_content .social {
+    margin-top: 15px;
+}
+
+.single_team .team_content .social li {
+    display: inline-block;
+    margin-right: 8px;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+}
+
+.single_team .team_content .social li a {
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single_team .team_content .social li a:hover {
+    background-color: #fff;
+    color: #EEC41E;
+}
+
+.single_team:hover .team_image::before {
+    -webkit-transform: skewX(-30deg) translateX(0);
+    transform: skewX(-30deg) translateX(0);
+}
+
+.single_team:hover .team_content .team_name {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.single_team:hover .team_content p {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    opacity: 1;
+}
+
+.single_team:hover .team_content .social li {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.single_team:hover .team_content .social li:nth-of-type(1) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.single_team:hover .team_content .social li:nth-of-type(2) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.single_team:hover .team_content .social li:nth-of-type(3) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+/*===========================
+     08.TESTIMONIUAL css 
+===========================*/
+.single_testimonial {
+    padding: 30px;
+    background-color: #fff;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.31);
+    box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.31);
+    position: relative;
+    margin: 30px 0;
+}
+
+.single_testimonial i {
+    font-size: 60px;
+    line-height: 60px;
+    color: #EEC41E;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.single_testimonial img {
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.single_testimonial .author_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.single_testimonial .sub_title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.single_testimonial p {
+    margin-top: 20px;
+}
+
+.testimonial_active .slick-dots {
+    width: 100%;
+    text-align: center;
+}
+
+.testimonial_active .slick-dots li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.testimonial_active .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: 2px solid #EEC41E;
+    border-radius: 50%;
+    font-size: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.testimonial_active .slick-dots li.slick-active button {
+    background-color: #EEC41E;
+}
+
+/*===========================
+         09.Services
+===========================*/
+.services_deep {
+    background-color: #ffe225;
+    padding: 4em 0 4em 0;
+}
+
+.titleServicesDeep {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+.listServices li span {
+    color: #9CC18D;
+}
+
+.listServices li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+/*===========================
+         09.BLOG css
+===========================*/
+.blog_area {
+    background-color: rgba(250, 250, 250, 0.74);
+}
+
+.single_blog {
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.1);
+    box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.1);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_blog {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_blog {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single_blog {
+        padding: 20px;
+    }
+}
+
+.single_blog:hover {
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.31);
+    box-shadow: 0px 0px 22px 0px rgba(173, 206, 243, 0.31);
+}
+
+.single_blog .blog_image img {
+    width: 100%;
+}
+
+.single_blog .blog_content {
+    padding-top: 25px;
+}
+
+.single_blog .blog_content .blog_meta ul li {
+    font-size: 16px;
+    color: #747E88;
+    display: inline-block;
+}
+
+.single_blog .blog_content .blog_meta ul li + li {
+    margin-left: 30px;
+}
+
+.single_blog .blog_content .blog_meta ul li a {
+    color: #747E88;
+}
+
+.single_blog .blog_content .blog_title a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #38424D;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single_blog .blog_content .blog_title a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .single_blog .blog_content .blog_title a {
+        font-size: 18px;
+    }
+}
+
+.single_blog .blog_content .blog_title a:hover {
+    color: #EEC41E;
+}
+
+.single_blog .blog_content p {
+    margin-top: 15px;
+}
+
+.single_blog .blog_content .more {
+    margin-top: 15px;
+    color: #EEC41E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.single_blog .blog_content_2 {
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+@media (max-width: 767px) {
+    .single_blog .blog_content_2 {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single_blog .blog_content_2 {
+        padding-left: 30px;
+        padding-top: 0;
+    }
+}
+
+.single_blog .blog_content_2 .blog_title a {
+    margin-top: 0;
+}
+
+.blog_share {
+    padding-top: 20px;
+}
+
+.blog_share span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #38424D;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .blog_share span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog_share span {
+        font-size: 18px;
+    }
+}
+
+.blog_share .social li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.blog_share .social li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .blog_share .social li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog_share .social li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+
+.blog_share .social li .social_1 {
+    background-color: #4977D9;
+}
+
+.blog_share .social li .social_2 {
+    background-color: #55ACEE;
+}
+
+.blog_share .social li .social_3 {
+    background-color: #E4405F;
+}
+
+.blog_share .social li .social_4 {
+    background-color: #0077B5;
+}
+
+/*===========================
+        10.CONTACT css 
+===========================*/
+.contact_area {
+    background-color: #F9FAFB;
+}
+
+.single_form {
+    margin-top: 30px;
+}
+
+.single_form input,
+.single_form textarea {
+    width: 100%;
+    height: 60px;
+    padding: 0 25px;
+    border: 2px solid #DBDBDB;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #747E88;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single_form input::-webkit-input-placeholder,
+.single_form textarea::-webkit-input-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input:-ms-input-placeholder,
+.single_form textarea:-ms-input-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input::-ms-input-placeholder,
+.single_form textarea::-ms-input-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input::placeholder,
+.single_form textarea::placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input::-moz-placeholder,
+.single_form textarea::-moz-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input::-moz-placeholder,
+.single_form textarea::-moz-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input::-webkit-input-placeholder,
+.single_form textarea::-webkit-input-placeholder {
+    opacity: 1;
+    color: #DBDBDB;
+}
+
+.single_form input:focus,
+.single_form textarea:focus {
+    border-color: #EEC41E;
+}
+
+.single_form textarea {
+    height: 230px;
+    padding-top: 15px;
+    border-radius: 25px;
+    resize: none;
+}
+
+.single_form .main-btn {
+    border-radius: 50px;
+}
+
+.single_form .main-btn:hover {
+    -webkit-box-shadow: 0px 3px 22px 0px rgba(238, 196, 30, 0.3);
+    box-shadow: 0px 3px 22px 0px rgba(238, 196, 30, 0.3);
+}
+
+.single_form .nice-select {
+    float: none;
+    border-radius: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 58px;
+    padding: 0 25px;
+    border: 2px solid #DBDBDB;
+    border-radius: 50px;
+}
+
+.single_form .nice-select::after {
+    width: 8px;
+    height: 8px;
+    right: 25px;
+    border-color: #747E88;
+}
+
+.single_form .nice-select:focus {
+    border-color: #EEC41E;
+}
+
+.single_form .nice-select .current {
+    font-size: 16px;
+    color: #747E88;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.single_form .nice-select .list {
+    width: 100%;
+    border-radius: 0;
+}
+
+.single_form .nice-select .list .option {
+    font-size: 14px;
+    color: #a4a4a4;
+    line-height: 30px;
+    min-height: 30px;
+}
+
+/*===========================
+        11.FOOTER css 
+===========================*/
+.footer_area {
+    background-color: #38424D;
+}
+
+.footer_about p {
+    color: #fff;
+    margin-top: 25px;
+}
+
+.footer_about .social li {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.footer_about .social li + li {
+    margin-left: 15px;
+}
+
+.footer_about .social li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer_about .social li .social_1 {
+    background-color: #4977D9;
+}
+
+.footer_about .social li .social_2 {
+    background-color: #55ACEE;
+}
+
+.footer_about .social li .social_3 {
+    background-color: #E4405F;
+}
+
+.footer_about .social li .social_4 {
+    background-color: #0077B5;
+}
+
+.footer_title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .footer_title {
+        font-size: 20px;
+    }
+}
+
+.footer_link {
+    width: 50%;
+}
+
+.footer_link .link {
+    padding-top: 30px;
+}
+
+.footer_link .link li {
+    margin-top: 15px;
+}
+
+.footer_link .link li a {
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.footer_link .link li a:hover {
+    color: #EEC41E;
+}
+
+.footer_subscribe p {
+    color: #fff;
+    margin-top: 45px;
+}
+
+.footer_subscribe .subscribe_form {
+    position: relative;
+    margin-top: 30px;
+}
+
+.footer_subscribe .subscribe_form input {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 25px;
+    border: 0;
+    color: #38424D;
+}
+
+.footer_subscribe .subscribe_form button {
+    height: 40px;
+    width: 40px;
+    border: 0;
+    font-size: 28px;
+    color: #fff;
+    background-color: #EEC41E;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Precios */
+/* Estilos para el formulario */
+#reservationForm {
+    background-color: #FDE801;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+/* Estilos para la card de resultado */
+#resultCard {
+    max-width: 500px;
+    margin: auto;
+}
+
+#resultCard .final-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pricesButtons {
+    transition: 0.5s ease-in-out all;
+    background-color: #9CC18D;
+    color: #000;
+    border-radius: 4px;
+    padding: 7px 14px;
+
+}
+
+.pricesButtons:hover {
+    transition: 0.5s ease-in-out all;
+    background-color: #77976b;
+    transform: scale(1.03);
+    color: #000;
+    border-radius: 4px;
+    padding: 7px 14px;
+}
+
+/*===== BACK TO TOP =====*/
+.back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #EEC41E;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: none;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background-color: #EEC41E;
+}
+
+
+.divider {
+    background-color: #FDE801;
+    height: 5em;
+}
+
+/* ESTILOS SECCIÓN DEPARTAMENTOS*/
+
+.departamentos-container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px; 
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bano-section cocina-section patio-section";
+}
+
+
+
+.bano-section { grid-area: bano-section; }
+
+.cocina-section { grid-area: cocina-section; }
+
+.patio-section { grid-area: patio-section; }
+
+.titleDepartamentos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.departamentos-container{
+  margin-top: 3em;
+  justify-items: center;
+}
+
+
+
+
+
+.bano-section {
+    grid-area: bano-section;
+}
+
+.cocina-section {
+    grid-area: cocina-section;
+}
+
+.patio-section {
+    grid-area: patio-section;
+}
+
+.titleDepartamentos {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* Estilos del carrusel */
+/* Ajustar el tamaño de las imágenes en el carrusel */
+.carousel-item img {
+    all: unset;
+    width: 50rem !important; /* Ajusta este valor según lo que necesites */
+    margin-left: auto;
+    margin-right: auto;
+    height: 30rem; /* Mantiene la relación de aspecto */
+
+    max-width: 80%; /* Ajusta el tamaño */
+    max-height: 500px; /* Evita que sean demasiado altas */
+    margin: auto;
+}
+
+.carousel-item {
+    transition: transform 0.3s ease-in-out; /* Reduce el tiempo de transición */
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+/*estilos de testimonio*/
+/*estilos testimonials*/
+.testimonio_title {
+    margin-top: 3em;
+}
+
+.card {
+    background-color: rgba(243, 244, 246, 1);
+    padding: 2rem;
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.24);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+.header .image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 9999px;
+    object-fit: cover;
+
+}
+
+.stars {
+
+    justify-content: center;
+    grid-gap: 0.125rem;
+    gap: 0.125rem;
+    color: #EEC41E;
+}
+
+.stars svg {
+    height: 1rem;
+    width: 1rem;
+}
+
+.name {
+    margin-top: 0.25rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgba(55, 65, 81, 1);
+}
+
+.message {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-top: 1rem;
+    color: rgba(107, 114, 128, 1);
+}
+
+.testimoniales-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*estilos botón flotante whatsapp*/
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Distancia desde abajo */
+    right: 20px; /* Distancia desde la derecha */
+    width: 60px; /* Tamaño del botón */
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ajuste del icono */
+.whatsapp-float img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Efecto al pasar el mouse */
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+/*responsive design*/
+/*sección departamentos*/
+@media screen and (max-width: 480px) {
+    * {
+
+        box-sizing: border-box;
+
+    }
+
+    .slider_content {
+        padding-top: 80px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .departamentos-container {
+        display: flex;
+        row-gap: 2em;
+        flex-direction: column;
+    }
+
+    .titleDepartamentos {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 20rem;
+    }
+
+    .testimoniales-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2em;
+    }
+
+    .container {
+
+    }
+
+    /*responsive botón flotante whatsapp*/
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsapp-float img {
+        width: 30px;
+        height: 30px;
+    }
+}
