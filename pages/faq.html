@@ -7,9 +7,8 @@
     <title>FAQ</title>
 
     <!-- Meta Tags General -->
-    <meta name="description"
-        content="" />
-    <meta name=""/>
+    <meta name="description" content="" />
+    <meta name="" />
     <meta name="author" content="Grupo Ramayon" />
     <meta name="robots" content="index, follow" />
 
@@ -17,34 +16,18 @@
     <link href="../assets/img/logo_ramayon.png" rel="icon">
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Full Calendar -->
-    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet' />
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Bundle JS (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Css-->
 
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LB04SH620W"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-LB04SH620W');
-</script>
 
 <body>
     <div id="topbar" class="d-flex align-items-center fixed-top">
@@ -109,68 +92,339 @@
             </div>
         </section>
         <!--fin sección hero-->
+
         <!--inicio sección faq-->
-        <section>
-            <div class="accordion" id="accordionManual">
+        <section id="faqSection">
+            <!--primer acordeón - información del alojamiento-->
+
+            <div class="accordion" id="accordionInfoAlojamiento">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
+                    <h2 class="accordion-header" id="headingOne_InfoAlojamiento">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Servicios laborables
+                            data-bs-target="#collapseOne_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseOne_InfoAlojamiento">
+                            ¿Dónde están ubicados los alojamientos?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                    <div id="collapseOne_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingOne_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
                         <div class="accordion-body">
-                            <p><strong>1. Liquidación mensual de sueldos</strong> según convenios colectivos de
-                                trabajo.<br><strong>2. Liquidación de conceptos adicionales:</strong> vacaciones,
-                                anticipos de sueldos, gratificaciones extraordinarias, liquidaciones finales por egreso
-                                del trabajador.<br><strong>3. Emisión de certificaciones laborales:</strong>
-                                certificados de trabajo (Art. 80 LCT), certificación de servicios y remuneraciones para
-                                ANSES.<br><strong>4. Cálculo de costos laborables y personalizados según necesidades de
-                                    la empresa.</strong><br><strong>5. Confección y presentación de Libro Sueldo Digital
-                                    AFIP y F.931.</strong><br><strong>6. Generación de VEP</strong> para pagos de cargas
-                                sociales y sindicatos.<br><strong>7. Emisión de boletas sindicales</strong> de acuerdo
-                                con la actividad y convenios aplicables.<br><strong>8. Altas y bajas de
-                                    personal</strong> en AFIP y organismos correspondientes.<br><strong>9. Gestión
-                                    documental laboral:</strong> empadronamiento en el Ministerio de Trabajo de Córdoba,
-                                tramitación de Firma Digital para empleadores, mantenimiento y actualización de Libro de
-                                Sueldos, planilla de horarios y descansos, actualización de nóminas en AFIP y
-                                ART.<br><strong>10. Seguimiento de cuenta corriente con la ART</strong> y control de
-                                pagos.<br><strong>11. Asesoramiento laboral y respuesta a consultas sobre normativa
-                                    vigente.</strong><br><strong>12. Informar sobre las actualizaciones que respectan al
-                                    convenio, gremio, sindicato, etc.</strong></p>
+                            <p>
+                                <strong>Altos de San Martín:</strong> Perito Moreno 1975. /
+                                <strong>Ramayon House:</strong> Teniente Ramayon 765. /
+                                <strong>Los Molinos:</strong> Coronel Díaz 447.
+                            </p>
                         </div>
                     </div>
                 </div>
-    
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
+                    <h2 class="accordion-header" id="headingTwo_InfoAlojamiento">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Servicios impositivos y contables
+                            data-bs-target="#collapseTwo_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseTwo_InfoAlojamiento">
+                            ¿Qué tipo de alojamientos ofrecen?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div id="collapseTwo_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
                         <div class="accordion-body">
-                            <p><strong>13. Liquidación de impuestos:</strong> IVA, Ingresos Brutos, Comercio e
-                                Industria.<br><strong>14. Generación de VEP</strong> para pago de impuestos nacionales y
-                                provinciales.<br><strong>15. Armado, actualización de planilla de vencimientos y
-                                    seguimiento de pagos.</strong><br><strong>16. Recordatorios de vencimientos y
-                                    pagos.</strong><br><strong>17. Monitoreo y actualización de Monotributo:</strong>
-                                recategorizaciones semestrales, análisis de facturación e ingresos, seguimiento de pagos
-                                y vencimientos.<br><strong>18. Análisis de posición financiera y fiscal:</strong>
-                                comparación de ingresos y ventas, evaluación de cumplimiento fiscal y
-                                proyecciones.<br><strong>19. Asesoramiento en planificación fiscal</strong> para
-                                optimizar carga tributaria.<br><strong>20. Representación ante organismos públicos</strong> como AFIP, Rentas y Ministerio de Trabajo.
+                            <p>Son <strong>3 departamentos totalmente equipados</strong>, para un máximo de 3, 4 y 6
+                                personas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree_InfoAlojamiento">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseThree_InfoAlojamiento">
+                            ¿Cuántas personas puede alojar?
+                        </button>
+                    </h2>
+                    <div id="collapseThree_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingThree_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
+                        <div class="accordion-body">
+                            <p>
+                                <strong>Altos de San Martín</strong> hasta 3 personas,
+                                <strong>Ramayon House</strong> hasta 4 personas,
+                                <strong>Los Molinos</strong> hasta 6 personas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour_InfoAlojamiento">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseFour_InfoAlojamiento">
+                            ¿Qué servicios hay cerca del alojamiento?
+                        </button>
+                    </h2>
+                    <div id="collapseFour_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingFour_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
+                        <div class="accordion-body">
+                            <p>
+                                Los alojamientos se encuentran muy <strong>cerca del centro de la ciudad</strong>, con
+                                acceso a
+                                <strong>restaurantes, tiendas, supermercados</strong> y mucho más.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive_InfoAlojamiento">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseFive_InfoAlojamiento">
+                            ¿Se puede fumar en el alojamiento?
+                        </button>
+                    </h2>
+                    <div id="collapseFive_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingFive_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
+                        <div class="accordion-body">
+                            <p><strong>No.</strong> Está <strong>terminantemente prohibido fumar</strong> dentro de los
+                                alojamientos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix_InfoAlojamiento">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix_InfoAlojamiento" aria-expanded="false"
+                            aria-controls="collapseSix_InfoAlojamiento">
+                            ¿Hay alguna restricción en los alojamientos?
+                        </button>
+                    </h2>
+                    <div id="collapseSix_InfoAlojamiento" class="accordion-collapse collapse"
+                        aria-labelledby="headingSix_InfoAlojamiento" data-bs-parent="#accordionInfoAlojamiento">
+                        <div class="accordion-body">
+                            <p>
+                                Está <strong>terminantemente prohibido fumar</strong> dentro de los alojamientos. <br>
+                                Está <strong>prohibido el ingreso y la permanencia de personas ajenas</strong> a los
+                                pasajeros
+                                registrados originalmente para la estadía. <br>
+                                Se solicita <strong>respetar los horarios de descanso</strong> evitando ruidos molestos
+                                en horarios
+                                inadecuados que puedan afectar al resto de los habitantes del edificio. <br>
+                                Los <strong>daños o roturas</strong> ocasionadas a los elementos provistos en el
+                                departamento por su
+                                mal uso, <strong>serán cobrados a su valor de reposición</strong>.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-              
-              
+            <!-- segundo acordeón - reservas y pagos -->
+            <div class="accordion mt-4" id="accordionReservasPagos">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne_ReservasPagos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne_ReservasPagos" aria-expanded="false"
+                            aria-controls="collapseOne_ReservasPagos">
+                            ¿Cómo puedo hacer una reserva?
+                        </button>
+                    </h2>
+                    <div id="collapseOne_ReservasPagos" class="accordion-collapse collapse"
+                        aria-labelledby="headingOne_ReservasPagos" data-bs-parent="#accordionReservasPagos">
+                        <div class="accordion-body">
+                            <p> Seleccionando el botón “quiero reservar” en nuestra página principal, de esa manera
+                                podrás ponerte en contacto directamente con nosotros y realizar tu reserva.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo_ReservasPagos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo_ReservasPagos" aria-expanded="false"
+                            aria-controls="collapseTwo_ReservasPagos">
+                            ¿Puedo cancelar o modificar mi reserva?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo_ReservasPagos" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo_ReservasPagos" data-bs-parent="#accordionReservasPagos">
+                        <div class="accordion-body">
+                            <p>Para las reservas canceladas hasta 30 días antes del comienzo de la estadía, el pasajero
+                                recibe un crédito del 100% del pago de la seña, que podrá utilizar en una reserva
+                                futura. <br>
+                                Para las reservas canceladas hasta 14 días antes del comienzo de la estadía, el
+                                pasajero recibe un crédito del 50% del pago de la seña, que podrá utilizar en una
+                                reserva futura.<br>
+                                Para las reservas canceladas en un plazo menor a 14 días no habrá devolución de
+                                seña.<br>
+                                Las señas reconocidas para futuras reservas, pueden sufrir diferencias por
+                                actualización de tarifas y/o cambio de temporada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree_ReservasPagos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree_ReservasPagos" aria-expanded="false"
+                            aria-controls="collapseThree_ReservasPagos">
+                            ¿Qué incluye la tarifa?
+                        </button>
+                    </h2>
+                    <div id="collapseThree_ReservasPagos" class="accordion-collapse collapse"
+                        aria-labelledby="headingThree_ReservasPagos" data-bs-parent="#accordionReservasPagos">
+                        <div class="accordion-body">
+                            <p>Una noche de alojamiento para la cantidad de pasajeros solicitados, con todos los
+                                servicios incluidos.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour_ReservasPagos">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour_ReservasPagos" aria-expanded="false"
+                                aria-controls="collapseFour_ReservasPagos">
+                                ¿Que métodos de pago se aceptan?
+                            </button>
+                        </h2>
+                        <div id="collapseFour_ReservasPagos" class="accordion-collapse collapse"
+                            aria-labelledby="headingFour_ReservasPagos" data-bs-parent="#accordionReservasPagos">
+                            <div class="accordion-body">
+                                <p>Transferencia, deposito bancario, Mercado Pago, Paypal, efectivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>aaaaaaaaaaaaaaaaaaaa</p>
+                <!-- tercer acordeón - ubicación y servicios -->
+                <div class="accordion mt-4" id="accordionUbicacionServicios">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseOne_UbicacionServicios">
+                                ¿Qué servicios y comodidades se ofrecen en el alojamiento?
+                            </button>
+                        </h2>
+                        <div id="collapseOne_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingOne_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseTwo_UbicacionServicios">
+                                ¿Realizan cambio de blanquería?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwo_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseThree_UbicacionServicios">
+                                ¿Hay algún servicio adicional que deba pagar?
+                            </button>
+                        </h2>
+                        <div id="collapseThree_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingThree_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseFour_UbicacionServicios">
+                                ¿Hay estacionamiento?
+                            </button>
+                        </h2>
+                        <div id="collapseFour_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingFour_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseFive_UbicacionServicios">
+                                ¿Hay servicio de desayuno?
+                            </button>
+                        </h2>
+                        <div id="collapseFive_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingFive_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseSix_UbicacionServicios">
+                                ¿Aceptan mascotas?
+                            </button>
+                        </h2>
+                        <div id="collapseSix_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingSix_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseSeven_UbicacionServicios">
+                                ¿Cuál es la política de mascotas?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingSeven_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight_UbicacionServicios">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight_UbicacionServicios" aria-expanded="false"
+                                aria-controls="collapseEight_UbicacionServicios">
+                                ¿Hay servicio de traslado al aeropuerto/terminal?
+                            </button>
+                        </h2>
+                        <div id="collapseEight_UbicacionServicios" class="accordion-collapse collapse"
+                            aria-labelledby="headingEight_UbicacionServicios"
+                            data-bs-parent="#accordionUbicacionServicios">
+                            <div class="accordion-body">
+                                contenido
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
         </section>
         <!--fin sección faq-->
+
     </main>
     <footer id="footer">
         <div class="footer-top">
@@ -228,39 +482,14 @@
             </div>
         </div>
     </footer>
-    <!-- Incluir Bootstrap JS y dependencias -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Incluir el script de precios -->
-    <script src="./js/get-prices.js"></script>
-    <!-- Incluir el script de envio de mensajes -->
-    <script src="js/send-message.js"></script>
 
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/aos/aos.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-        document.querySelectorAll('.accordion-button').forEach(button => {
-            button.addEventListener('click', function () {
-                const target = document.querySelector(this.getAttribute('data-bs-target'));
-                if (target.classList.contains('show')) {
-                    const collapse = bootstrap.Collapse.getInstance(target);
-                    collapse.hide();
-                }
-            });
-        });
-    </script>
+
 
 
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
