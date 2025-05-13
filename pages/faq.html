@@ -23,6 +23,9 @@
     <!-- Bootstrap Bundle JS (incluye Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!--Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
     <!--Css-->
 
     <link rel="stylesheet" href="../assets/css/style.css" />
@@ -93,10 +96,50 @@
         </section>
         <!--fin sección hero-->
 
-        <!--inicio sección faq-->
-        <section id="faqSection">
-            <!--primer acordeón - información del alojamiento-->
+        <!--inicio sección cards métodos de pago-->
+        <section class="cards-pago-section">
+           <div class="section-title">
+                <h2>Conocé nuestros métodos de pago</h2>
+                <p>Métodos de pago</p>
+            </div>
+            <div class="container cards-pago">
+                <div class="d-flex justify-content-center gap-4 flex-wrap">
+                    <div
+                        class="card  text-white rounded-circle d-flex align-items-center justify-content-center circle-card">
+                        <i class="bi bi-cash-stack fs-1"></i>
+                    </div>
+                    <div
+                        class="card text-white rounded-circle d-flex align-items-center justify-content-center circle-card">
+                        <i class="bi bi-bank  fs-1"></i>
+                    </div>
+                    <div
+                        class="card  text-white rounded-circle d-flex align-items-center justify-content-center circle-card">
+                        <img src="../assets/img/logo-mercadolibre.png" class="img-fluid" style="width: 60px; height: 50px;"
+                    alt="mercado-libre">
+                    </div>
+                    <div
+                        class="card  text-white rounded-circle d-flex align-items-center justify-content-center circle-card">
+                        <i class="bi bi-paypal fs-1"></i>
+                    </div>
+                    <div
+                        class="card  text-white rounded-circle d-flex align-items-center justify-content-center circle-card">
+                        <i class="bi bi-cash-coin fs-1"></i>
 
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--fin sección cards métodos de pago-->
+
+
+        <!--inicio sección faq-->
+        <section id="faqSection" class="container">
+            <!--primer acordeón - información del alojamiento-->
+            <div class="section-title">
+                <h2>Preguntas frecuentes del alojamiento</h2>
+                <p>Información del alojamiento</p>
+            </div>
             <div class="accordion" id="accordionInfoAlojamiento">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne_InfoAlojamiento">
@@ -215,6 +258,10 @@
                 </div>
             </div>
             <!-- segundo acordeón - reservas y pagos -->
+            <div class="section-title">
+                <h2>Preguntas frecuentes de reservas y pagos</h2>
+                <p>Información de reservas y pagos</p>
+            </div>
             <div class="accordion mt-4" id="accordionReservasPagos">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne_ReservasPagos">
@@ -288,139 +335,232 @@
                         </div>
                     </div>
                 </div>
-                <p>aaaaaaaaaaaaaaaaaaaa</p>
-                <!-- tercer acordeón - ubicación y servicios -->
-                <div class="accordion mt-4" id="accordionUbicacionServicios">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseOne_UbicacionServicios">
-                                ¿Qué servicios y comodidades se ofrecen en el alojamiento?
-                            </button>
-                        </h2>
-                        <div id="collapseOne_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingOne_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseTwo_UbicacionServicios">
-                                ¿Realizan cambio de blanquería?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingTwo_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseThree_UbicacionServicios">
-                                ¿Hay algún servicio adicional que deba pagar?
-                            </button>
-                        </h2>
-                        <div id="collapseThree_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingThree_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseFour_UbicacionServicios">
-                                ¿Hay estacionamiento?
-                            </button>
-                        </h2>
-                        <div id="collapseFour_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingFour_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseFive_UbicacionServicios">
-                                ¿Hay servicio de desayuno?
-                            </button>
-                        </h2>
-                        <div id="collapseFive_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingFive_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingSix_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSix_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseSix_UbicacionServicios">
-                                ¿Aceptan mascotas?
-                            </button>
-                        </h2>
-                        <div id="collapseSix_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingSix_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingSeven_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSeven_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseSeven_UbicacionServicios">
-                                ¿Cuál es la política de mascotas?
-                            </button>
-                        </h2>
-                        <div id="collapseSeven_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingSeven_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingEight_UbicacionServicios">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseEight_UbicacionServicios" aria-expanded="false"
-                                aria-controls="collapseEight_UbicacionServicios">
-                                ¿Hay servicio de traslado al aeropuerto/terminal?
-                            </button>
-                        </h2>
-                        <div id="collapseEight_UbicacionServicios" class="accordion-collapse collapse"
-                            aria-labelledby="headingEight_UbicacionServicios"
-                            data-bs-parent="#accordionUbicacionServicios">
-                            <div class="accordion-body">
-                                contenido
-                            </div>
+
+
+            </div>
+            <!-- tercer acordeón - ubicación y servicios -->
+            <div class="section-title">
+                <h2>Preguntas frecuentes de ubicación y servicios</h2>
+                <p>Información de ubicación y servicios</p>
+            </div>
+            <div class="accordion mt-4" id="accordionUbicacionServicios">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseOne_UbicacionServicios">
+                            ¿Qué servicios y comodidades se ofrecen en el alojamiento?
+                        </button>
+                    </h2>
+                    <div id="collapseOne_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingOne_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            Wi Fi, calefacción, estacionamiento, vajilla completa, ropa blanca, shampoo y
+                            acondicionador, jabón, cocina a gas, lavarropas, pava eléctrica, tostadora, cafetera,
+                            microondas, parrilla, heladera con freezer y SmartTV.
+
                         </div>
                     </div>
                 </div>
-            
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseTwo_UbicacionServicios">
+                            ¿Realizan cambio de blanquería?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            En las estadías mayores a 7 noches realizaremos recambio de sábanas y toallas a mitad de la
+                            estadía, el lavado de vajilla y utensilios de cocina no está incluido en este servicio, en
+                            el caso de que usted necesite un servicio de limpieza diario, puede solicitarlo con un cargo
+                            adicional.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseThree_UbicacionServicios">
+                            ¿Hay algún servicio adicional que deba pagar?
+                        </button>
+                    </h2>
+                    <div id="collapseThree_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingThree_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            No se realiza ningún cargo adicional, el valor publicado en nuestra página es final con
+                            impuestos incluidos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseFour_UbicacionServicios">
+                            ¿Hay estacionamiento?
+                        </button>
+                    </h2>
+                    <div id="collapseFour_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingFour_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            Sí, nuestros alojamientos cuentan con cochera descubierta en el frente del edificio propios
+                            del departamento. A excepción del alojamiento “Los Molinos”. En este, el espacio para el
+                            estacionamiento está ubicado frente al complejo y es por orden de llegada.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseFive_UbicacionServicios">
+                            ¿Hay servicio de desayuno?
+                        </button>
+                    </h2>
+                    <div id="collapseFive_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingFive_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            No contamos con ese servicio.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseSix_UbicacionServicios">
+                            ¿Aceptan mascotas?
+                        </button>
+                    </h2>
+                    <div id="collapseSix_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingSix_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            Si, nuestros alojamientos son pet friendly.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseSeven_UbicacionServicios">
+                            ¿Cuál es la política de mascotas?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingSeven_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            Se admite 1 mascota en el departamento. <br>
+                            La mascota debe estar desparasitada, con sus vacunas al día y libre de
+                            garrapatas/pulgas.<br>
+                            En lo posible solicitamos presentar un certificado que lo verifique.<br>
+                            Se debe abonar un depósito previo al ingreso a la cabaña, por transferencia bancaria
+                            equivalente al 50% de 1 noche de estadía en concepto de daños y perjuicios. Si no hubiera
+                            ningún daño del equipamiento del departamento el mismo se reintegrará también por
+                            transferencia bancaria pasadas las 72 hs hábiles de su check out. <br>
+                            Hemos estipulado además ciertas reglas de convivencia que deberán firmar los responsables
+                            de la mascota al realizar el check in:<br>
+                            <ul>
+                                <li>La mascota puede moverse con libertad dentro del departamento.</li>
+                                <li>La mascota debe moverse con correa fuera del departamento.</li>
+                                <li>La materia fecal de la mascota debe levantarse todos los días.</li>
+                                <li>La mascota NO puede permanecer sola en el departamento.</li>
+                                <li>La mascota NO puede dormir en camas, sillas ni sofás.</li>
+                            </ul>
+                            Casos en los que se retendrá su depósito:
+                            <ul>
+                                <li>Daño parcial o completo de cualquier objeto que integre el equipamiento del
+                                    departamento.</li>
+                                <li>Equipamiento con orín.</li>
+                                <li>Tratamiento especial del blanco, ya sea por pelos o manchas.</li>
+                                <li>Ruidos molestos.</li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight_UbicacionServicios">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight_UbicacionServicios" aria-expanded="false"
+                            aria-controls="collapseEight_UbicacionServicios">
+                            ¿Hay servicio de traslado al aeropuerto/terminal?
+                        </button>
+                    </h2>
+                    <div id="collapseEight_UbicacionServicios" class="accordion-collapse collapse"
+                        aria-labelledby="headingEight_UbicacionServicios" data-bs-parent="#accordionUbicacionServicios">
+                        <div class="accordion-body">
+                            Consultar por este servicio.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cuarto acordeón - check in y check out -->
+            <div class="section-title">
+                <h2>Preguntas frecuentes de check-in y check-out</h2>
+                <p>Información de check-in y check out</p>
+            </div>
+            <div class="accordion mt-4" id="accordionCheckInOut">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne_CheckInOut">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne_CheckInOut" aria-expanded="false"
+                            aria-controls="collapseOne_CheckInOut">
+                            ¿Cuál es el horario de check-in y check-out?
+                        </button>
+                    </h2>
+                    <div id="collapseOne_CheckInOut" class="accordion-collapse collapse"
+                        aria-labelledby="headingOne_CheckInOut" data-bs-parent="#accordionCheckInOut">
+                        <div class="accordion-body">
+                            El check in es a partir de las 14:00 hs y el check out es hasta las 10:00 hs.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo_CheckInOut">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo_CheckInOut" aria-expanded="false"
+                            aria-controls="collapseTwo_CheckInOut">
+                            ¿Qué debo hacer si llego tarde o temprano?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo_CheckInOut" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo_CheckInOut" data-bs-parent="#accordionCheckInOut">
+                        <div class="accordion-body">
+                            Si llegás tarde, por favor avisanos con anticipación para que podamos hacer arreglos
+                            especiales. <br>
+                            Si llegás temprano y el alojamiento que solicitaste se encuentra listo, podrás ingresar sin
+                            costo adicional. <br>
+                            Si aún se encuentra en proceso de limpieza, deberás esperar al horario del check in.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree_CheckInOut">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree_CheckInOut" aria-expanded="false"
+                            aria-controls="collapseThree_CheckInOut">
+                            ¿Cómo se entrega la llave del departamento?
+                        </button>
+                    </h2>
+                    <div id="collapseThree_CheckInOut" class="accordion-collapse collapse"
+                        aria-labelledby="headingThree_CheckInOut" data-bs-parent="#accordionCheckInOut">
+                        <div class="accordion-body">
+                            Con previa coordinación, te esperaremos en el alojamiento para la entrega de las llaves y
+                            explicaciones varias del departamento.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <!--fin sección faq-->

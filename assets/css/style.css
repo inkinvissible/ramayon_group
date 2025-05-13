@@ -2503,7 +2503,7 @@ section {
 #faqSection {
   display: flex;
   flex-direction: column;
-  row-gap: 5rem;
+  row-gap: 1rem;
 }
 
 .accordion {
@@ -2540,4 +2540,22 @@ section {
   padding: 1.5rem;
   border-top: 1px solid #ddd;
   font-family: "Poppins", sans-serif
+}
+
+#faqSection .section-title {
+  padding: 0px;
+}
+
+/* estilos de las cards métodos de pago*/
+.cards-pago {
+  background: #f9f9f9;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards-pago-section {
+  margin-left: 7em;
+  margin-right: 7rem;
 }
