@@ -2557,7 +2557,6 @@ section {
 .cards-pago {
   border-radius: 1em;
   width: 100%;
-  background: #f9f9f9;
   height: 20rem;
   display: flex;
   flex-direction: column;
@@ -2585,10 +2584,9 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
   font-family: "Poppins", sans-serif;
   margin-top: 20px;
-  color: #333333;
+  color: #f9f9f9;
 }
 
 /*hover cards*/
@@ -2597,12 +2595,46 @@ section {
 }
 
 .circle-card:hover {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 15px #f9f9f9;
 }
 
 /*check in check out */
 .checkin-checkout-container {
-  background: white;
+ 
   height: 15rem;
   border-radius: 1em;
+}
+.custom-card {
+  min-height: 300px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.check-in-card{
+  background: #76C55A;
+}
+.check-out-card{
+  background:#C62828
+}
+.check-in-card p , .check-out-card p {
+   font-size: 14px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+.check-in-card h5 , .check-out-card h5 {
+   font-size: 30px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-family:"Playfair Display", serif;
+  color: #333333;           
 }
