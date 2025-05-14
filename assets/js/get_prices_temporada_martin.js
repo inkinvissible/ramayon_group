@@ -84,11 +84,11 @@ function createTarifasTable(data, targetId, fechaActualizacion) {
 
         // Precios por cantidad de pasajeros
         const pax1o2Cell = document.createElement('td');
-        pax1o2Cell.textContent = `$${row['1 o 2']} USD`;
+        pax1o2Cell.textContent = `${row['1 o 2']} ARS`;
         tr.appendChild(pax1o2Cell);
 
         const pax3Cell = document.createElement('td');
-        pax3Cell.textContent = `$${row['3']} USD`;
+        pax3Cell.textContent = `${row['3']} ARS`;
         tr.appendChild(pax3Cell);
 
         tbody.appendChild(tr);

@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // Crear celdas para precios (índices 1-5)
                 for (let i = 1; i <= 5; i++) {
-                    celdas.push(`<td>$${datos[i]} USD</td>`);
+                    celdas.push(`<td>${datos[i]} ARS</td>`);
                 }
 
                 return `

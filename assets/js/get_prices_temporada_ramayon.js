@@ -65,9 +65,9 @@ function processRamayonData(csvData) {
         tableHtml += `
             <tr>
                 <td class="${temporadaClass}">${row[0].toUpperCase()}</td>
-                <td>$${row[1].toUpperCase()} USD</td>
-                <td>$${row[2].toUpperCase()} USD</td>
-                <td>$${row[3].toUpperCase()} USD</td>
+                <td>${row[1].toUpperCase()} ARS</td>
+                <td>${row[2].toUpperCase()} ARS</td>
+                <td>${row[3].toUpperCase()} ARS</td>
             </tr>`;
     }
 
