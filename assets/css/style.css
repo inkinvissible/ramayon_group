@@ -2256,7 +2256,7 @@ section {
 
 /* Estilos para las temporadas */
 .temporada-baja {
-  color: #76C55A !important;
+  color: #daedd3 !important;
   font-weight: bold;
   position: relative;
 }
@@ -2281,7 +2281,7 @@ section {
 }
 
 .temporada-alta {
-  color: #e36767 !important;
+  color: #b30202 !important;
   font-weight: bold;
 }
 
@@ -2316,7 +2316,7 @@ section {
   .temporada-baja::before,
   .temporada-media::before,
   .temporada-alta::before {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
