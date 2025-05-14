@@ -2541,11 +2541,12 @@ section {
   border-top: 1px solid #ddd;
   font-family: "Poppins", sans-serif
 }
+
 /*para eliminar los bordes azules de bootstrap*/
-.accordion{
-  --bs-accordion-btn-focus-border-color:transparent;
-  --bs-accordion-btn-focus-box-shadow:transparent;
-  --bs-accordion-active-color:transparent;
+.accordion {
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: transparent;
+  --bs-accordion-active-color: transparent;
 }
 
 #faqSection .section-title {
@@ -2599,3 +2600,9 @@ section {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
+/*check in check out */
+.checkin-checkout-container {
+  background: white;
+  height: 15rem;
+  border-radius: 1em;
+}
