@@ -34,7 +34,7 @@ const getData = async () => {
         const calendarEl = document.getElementById("calendar");
         const today = new Date();
         const fourMonthsLater = new Date();
-        fourMonthsLater.setMonth(today.getMonth() + 3);
+        fourMonthsLater.setMonth(today.getMonth() + 5);
 
         const calendar = new FullCalendar.Calendar(calendarEl, {
             headerToolbar: {
