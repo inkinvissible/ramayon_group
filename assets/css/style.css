@@ -2297,6 +2297,9 @@ section {
   .tarifa-tabs {
     border-radius: 10px;
   }
+  .tarifas-container {
+    overflow-x: hidden;
+  }
 
   .tarifa-tabs label {
     padding: 12px 15px;
@@ -2334,10 +2337,6 @@ section {
     width: 33.33%;
   }
 
-  .tab-pane {
-    padding: 15px 10px;
-  }
-
   .table-tarifas {
     font-size: 13px;
   }
@@ -2355,13 +2354,15 @@ section {
   .temporada-baja::before,
   .temporada-media::before,
   .temporada-alta::before {
+    content: "";
     font-size: 14px;
     margin-right: 4px;
   }
 
   .actualizacion-fecha {
     font-size: 12px;
-    text-align: center;
+
+
   }
 }
 
@@ -2390,7 +2391,7 @@ section {
 
 .actualizacion-container {
   margin-top: 20px;
-  text-align: right;
+  text-align: left;
   font-style: italic;
   color: rgba(255, 255, 255, 0.7);
 }

@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table class="table table-tarifas">
                     <thead>
                         <tr>
-                            <th>Pasajeros</th>
+                            <th>PAX</th>
                             <th class="temporada-baja">BAJA</th>
                             <th class="temporada-media">MEDIA</th>
                             <th class="temporada-alta">ALTA</th>
@@ -92,7 +92,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 </table>
             </div>
             <div class="actualizacion-container">
-                <small class="actualizacion-fecha">Última actualización: ${fechaActualizacion || 'No disponible'}</small>
+                <small class="actualizacion-fecha">Tarifas por noche  finales con Impuestos incluidos, expresadas en Pesos Argentinos. Las mismas podrán sufrir modificaciones sin previo aviso, salvo para las reservas ya confirmadas</small>
+            <br> <br> <small class="actualizacion-fecha">Última actualización: ${fechaActualizacion || 'No disponible'}</small>
             </div>`;
 
         molinosContent.innerHTML = tableHtml;

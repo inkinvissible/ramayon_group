@@ -50,7 +50,7 @@ function createTarifasTableTranspuesta(pasajeros, nombresTemporadas, temporadas,
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
     const thPasajeros = document.createElement('th');
-    thPasajeros.textContent = 'Pasajeros';
+    thPasajeros.textContent = 'PAX';
     headerRow.appendChild(thPasajeros);
 
     nombresTemporadas.forEach(temp => {
@@ -89,11 +89,23 @@ function createTarifasTableTranspuesta(pasajeros, nombresTemporadas, temporadas,
     // Fecha de actualización
     const updateContainer = document.createElement('div');
     updateContainer.className = 'actualizacion-container';
+
+    // Agregar texto informativo sobre tarifas
+    const tarifasInfo = document.createElement('small');
+    tarifasInfo.className = 'actualizacion-fecha';
+    tarifasInfo.textContent = 'Tarifas por noche finales con Impuestos incluidos, expresadas en Pesos Argentinos. Las mismas podrán sufrir modificaciones sin previo aviso, salvo para las reservas ya confirmadas';
+    updateContainer.appendChild(tarifasInfo);
+
+    // Agregar salto de línea
+    updateContainer.appendChild(document.createElement('br'));
+    updateContainer.appendChild(document.createElement('br'));
+
     const updateInfo = document.createElement('p');
     updateInfo.className = 'actualizacion-fecha';
     updateInfo.textContent = fechaActualizacion ?
         `Última actualización: ${fechaActualizacion}` :
         'Precios actualizados';
+
     updateContainer.appendChild(updateInfo);
 
     tableSection.innerHTML = '';
