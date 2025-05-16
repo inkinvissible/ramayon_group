@@ -2499,7 +2499,7 @@ section {
   }
 }
 
-/* estilos del acordeón*/
+/* estilos del acordeón y seccion faq*/
 #faqSection {
   display: flex;
   flex-direction: column;
@@ -2508,6 +2508,15 @@ section {
 
 .accordion {
   all: unset !important;
+}
+
+#heroFaq {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/faq-background.jpg) top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
 }
 
 /* styles/styles.css */
@@ -2600,41 +2609,90 @@ section {
 
 /*check in check out */
 .checkin-checkout-container {
- 
+
   height: 15rem;
   border-radius: 1em;
 }
+
 .custom-card {
   min-height: 300px;
-    padding: 1.5rem;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .custom-card:hover {
   transform: scale(1.05);
 }
 
-.check-in-card{
+.check-in-card {
   background: #76C55A;
 }
-.check-out-card{
-  background:#C62828
+
+.check-out-card {
+  background: #C62828
 }
-.check-in-card p , .check-out-card p {
-   font-size: 14px;
+
+.check-in-card p,
+.check-out-card p {
+  font-size: 14px;
   font-weight: 1000;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #333333;
 }
-.check-in-card h5 , .check-out-card h5 {
-   font-size: 30px;
+
+.check-in-card h5,
+.check-out-card h5 {
+  font-size: 30px;
   font-weight: 1000;
   letter-spacing: 2px;
-  font-family:"Playfair Display", serif;
-  color: #333333;           
+  font-family: "Playfair Display", serif;
+  color: #333333;
+}
+
+.gallery-section {
+  background-color: black;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 500px;
+  /* Altura fija para todas las imágenes */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel {
+    max-width: 100%;
+    margin: 0 15px;
+  }
 }
