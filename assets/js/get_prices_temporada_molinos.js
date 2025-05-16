@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const molinosContent = document.getElementById('molinos-content');
     const loadingIndicator = document.getElementById('loading-molinos');
 
-    // Cargar y procesar los datos
     fetch(csvUrl)
         .then(response => {
             if (!response.ok) throw new Error('No se pudo cargar la información de tarifas');
@@ -11,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(csv => {
             try {
-                const { fechaActualizacion, temporadas } = procesarDatosCSV(csv);
-                molinosContent.innerHTML = crearTabla(fechaActualizacion, temporadas);
+                renderTarifasTranspuesta(csv);
                 loadingIndicator.style.display = 'none';
             } catch (error) {
                 throw error;
@@ -23,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             loadingIndicator.style.display = 'none';
             molinosContent.innerHTML = `
                 <div class="alert alert-danger" role="alert">
-                    <i class="bi bi-exclamation-triangle-fill"></i> 
+                    <i class="bi bi-exclamation-triangle-fill"></i>
                     Error: ${error.message}
                     <br>
                     Por favor, intente nuevamente más tarde o contáctenos directamente.
@@ -31,79 +29,73 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
         });
 
-    // Función para procesar los datos CSV
-    function procesarDatosCSV(csv) {
-        const lineas = csv.trim().split('\n').filter(linea => linea.trim());
+    function renderTarifasTranspuesta(csv) {
+        const lines = csv.trim().split('\n').filter(l => l.trim());
+        if (lines.length < 2) throw new Error('Formato de datos incorrecto');
 
-        if (lineas.length < 2) throw new Error('Formato de datos incorrecto');
+        // Cabeceras: Temporada, 1 o 2, 3, 4, 5, 6, fecha
+        const headers = lines[0].split(',').map(h => h.trim());
+        const pasajeros = headers.slice(1, 6); // ['1 o 2 Pax', '3 Pax', ...]
+        const temporadas = ['baja', 'media', 'alta'];
+        const temporadaLabels = {
+            baja: 'BAJA',
+            media: 'MEDIA',
+            alta: 'ALTA'
+        };
+        const temporadaClases = {
+            baja: 'temporada-baja',
+            media: 'temporada-media',
+            alta: 'temporada-alta'
+        };
 
-        // Extraer la fecha de actualización de la primera fila de datos
-        const primeraFila = lineas[1].split(',');
-        const fechaActualizacion = primeraFila[6] || 'No disponible';
+        // Construir estructura: { pasajero: { baja: val, media: val, alta: val } }
+        const preciosPorPasajero = {};
+        let fechaActualizacion = '';
 
-        // Mapear temporadas
-        const temporadas = {};
-        for (let i = 1; i < lineas.length; i++) {
-            const fila = lineas[i].split(',');
-            const temporada = fila[0].toLowerCase();
+        for (let i = 1; i < lines.length; i++) {
+            const row = lines[i].split(',').map(x => x.trim());
+            const temporada = row[0].toLowerCase();
+            if (!temporadas.includes(temporada)) continue;
 
-            if (temporada.includes('baja')) temporadas.baja = fila;
-            else if (temporada.includes('media')) temporadas.media = fila;
-            else if (temporada.includes('alta')) temporadas.alta = fila;
+            pasajeros.forEach((pax, idx) => {
+                if (!preciosPorPasajero[pax]) preciosPorPasajero[pax] = {};
+                preciosPorPasajero[pax][temporada] = row[idx + 1] ? `AR$ ${row[idx + 1]}` : '-';
+            });
+
+            if (!fechaActualizacion && row[6]) fechaActualizacion = row[6];
         }
 
-        return { fechaActualizacion, temporadas };
-    }
-
-    // Función para crear la tabla HTML
-    function crearTabla(fechaActualizacion, temporadas) {
-        // Definir tipos de temporada
-        const tiposTemporada = [
-            { key: 'baja', nombre: 'BAJA', clase: 'temporada-baja' },
-            { key: 'media', nombre: 'MEDIA', clase: 'temporada-media' },
-            { key: 'alta', nombre: 'ALTA', clase: 'temporada-alta' }
-        ];
-
-        // Crear filas de temporadas
-        const filas = tiposTemporada
-            .filter(tipo => temporadas[tipo.key])
-            .map(tipo => {
-                const datos = temporadas[tipo.key];
-                const celdas = [];
-
-                // Crear celdas para precios (índices 1-5)
-                for (let i = 1; i <= 5; i++) {
-                    celdas.push(`<td>$${datos[i]} USD</td>`);
-                }
-
-                return `
-                    <tr>
-                        <td class="${tipo.clase}">${tipo.nombre}</td>
-                        ${celdas.join('')}
-                    </tr>
-                `;
-            }).join('');
-
-        // Construir tabla completa
-        return `
+        // Construir tabla transpuesta
+        let tableHtml = `
             <div class="table-responsive">
                 <table class="table table-tarifas">
                     <thead>
                         <tr>
-                            <th>Temporada</th>
-                            <th>1 o 2 Pax</th>
-                            <th>3 Pax</th>
-                            <th>4 Pax</th>
-                            <th>5 Pax</th>
-                            <th>6 Pax</th>
+                            <th>PAX</th>
+                            <th class="temporada-baja">BAJA</th>
+                            <th class="temporada-media">MEDIA</th>
+                            <th class="temporada-alta">ALTA</th>
                         </tr>
                     </thead>
-                    <tbody>${filas}</tbody>
+                    <tbody>`;
+
+        pasajeros.forEach(pax => {
+            tableHtml += `<tr><td>${pax}</td>`;
+            temporadas.forEach(temp => {
+                tableHtml += `<td class="${temporadaClases[temp]}">${preciosPorPasajero[pax]?.[temp] || '-'}</td>`;
+            });
+            tableHtml += `</tr>`;
+        });
+
+        tableHtml += `
+                    </tbody>
                 </table>
             </div>
             <div class="actualizacion-container">
-                <small class="actualizacion-fecha">Última actualización: ${fechaActualizacion}</small>
-            </div>
-        `;
+                <small class="actualizacion-fecha">Tarifas por noche  finales con Impuestos incluidos, expresadas en Pesos Argentinos. Las mismas podrán sufrir modificaciones sin previo aviso, salvo para las reservas ya confirmadas</small>
+            <br> <br> <small class="actualizacion-fecha">Última actualización: ${fechaActualizacion || 'No disponible'}</small>
+            </div>`;
+
+        molinosContent.innerHTML = tableHtml;
     }
 });

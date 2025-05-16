@@ -278,7 +278,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 7px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -2256,7 +2256,7 @@ section {
 
 /* Estilos para las temporadas */
 .temporada-baja {
-  color: #76C55A !important;
+  color: #daedd3 !important;
   font-weight: bold;
   position: relative;
 }
@@ -2281,7 +2281,7 @@ section {
 }
 
 .temporada-alta {
-  color: #e36767 !important;
+  color: #b30202 !important;
   font-weight: bold;
 }
 
@@ -2296,6 +2296,9 @@ section {
 @media (max-width: 768px) {
   .tarifa-tabs {
     border-radius: 10px;
+  }
+  .tarifas-container {
+    overflow-x: hidden;
   }
 
   .tarifa-tabs label {
@@ -2316,7 +2319,7 @@ section {
   .temporada-baja::before,
   .temporada-media::before,
   .temporada-alta::before {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -2332,10 +2335,6 @@ section {
     font-size: 13px;
     text-align: center;
     width: 33.33%;
-  }
-
-  .tab-pane {
-    padding: 15px 10px;
   }
 
   .table-tarifas {
@@ -2355,13 +2354,15 @@ section {
   .temporada-baja::before,
   .temporada-media::before,
   .temporada-alta::before {
+    content: "";
     font-size: 14px;
     margin-right: 4px;
   }
 
   .actualizacion-fecha {
     font-size: 12px;
-    text-align: center;
+
+
   }
 }
 
@@ -2390,7 +2391,7 @@ section {
 
 .actualizacion-container {
   margin-top: 20px;
-  text-align: right;
+  text-align: left;
   font-style: italic;
   color: rgba(255, 255, 255, 0.7);
 }
