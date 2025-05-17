@@ -2694,6 +2694,10 @@ section {
 
   .carousel {
     max-width: 100%;
-    margin: 0 15px;
+    
+  }
+  .carrusel-container{
+    margin: 0px;
+    padding: 0px;
   }
 }
