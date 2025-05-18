@@ -2297,6 +2297,7 @@ section {
   .tarifa-tabs {
     border-radius: 10px;
   }
+
   .tarifas-container {
     overflow-x: hidden;
   }
@@ -2686,24 +2687,79 @@ section {
   padding: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  
+
+
+#header {
+  height: 80px;
+}
   .carousel-item {
     height: 300px;
   }
 
   .carousel {
     max-width: 100%;
-    
+
   }
-  .carrusel-container{
+
+  .carrusel-container {
     margin: 0px;
     padding: 0px;
   }
 
-  .cards-pago-section{
+  .cards-pago-section {
+    
+    margin: 0px;
+  }
+  .cards-pago-section .cps1{
     margin: 0px;
     padding: 0px;
   }
+  .cps2{
+    padding: 0px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+  .section-title h2{
+    line-height: normal;
+  }
+
+  .section-title h2::after{
+    all: unset;
+  }
+  /*check point*/
+  .cards-pago-section .section-title {
   
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-pago {
+    margin-top: 16em;
+  }
+ 
+  .checkin-checkout-container{
+    height: auto;
+  }
+  .checkin-checkout-div{
+    flex-direction: column;
+    align-items: center;
+  }
 }
