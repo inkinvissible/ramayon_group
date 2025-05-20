@@ -290,3 +290,30 @@ document.querySelectorAll('a[href="#alojamiento"]').forEach(function (anchor) {
   });
 });
 
+// Handle hash links when page loads
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if there's a hash in the URL
+  if (window.location.hash) {
+    // Get the hash without the '#' symbol
+    const targetId = window.location.hash.substring(1);
+    // Find the element with that ID
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      // Wait a short time to ensure page is fully loaded
+      setTimeout(function() {
+        // Get header height for offset
+        const header = document.querySelector('#header');
+        const offset = header ? header.offsetHeight : 0;
+
+        // Calculate position and scroll
+        const elementPos = targetElement.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: elementPos - offset,
+          behavior: 'smooth'
+        });
+      }, 300);
+    }
+  }
+});
+
